@@ -11,7 +11,7 @@ namespace Demo
 {
 
 
-    public partial class _Default
+    public partial class thank
     {
     }
 }

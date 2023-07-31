@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Demo
+namespace Demo.includes
 {
 
 
-    public partial class _Default
+    public partial class testimonials_slider
     {
     }
 }

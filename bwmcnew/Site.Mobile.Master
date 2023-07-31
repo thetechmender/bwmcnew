@@ -1,23 +1,160 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="bwmcnew.Site_Mobile" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="Demo.Site_Mobile" %>
 <%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
 
+
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <meta name="viewport" content="width=device-width" />
-    <title></title>
-    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="icon" type="image/x-icon" size="16x16" href="favicon.png">          
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/intlTelInput.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-        <h1>Mobile Master Page</h1>
-        <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
-        <section class="content-wrapper main-content clear-fix">
+<body>    
+       <header class="main-header">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="ctm-navbar-brand" href="/">
+                    <img src="assets/images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <%--<span class="navbar-toggler-icon"></span>--%>
+                    <div id="nav-icon1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul id="main-nav" class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item active"><a class="nav-link" aria-current="page" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Careers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                        <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <div class=" body-content">
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />       
             <asp:ContentPlaceHolder runat="server" ID="MainContent" />
-        </section>
-        <friendlyUrls:ViewSwitcher runat="server" />
+            <section class="ready-to-work space-p-t">        
+              <div class="section-title text-center mb-3 mb-md-5">
+                <h3>Ready to Work</h3>
+                <p>#1 choice for online small business formation</p>
+              </div>
+              <div class="rw-row">
+                  <div class="rw-col bg-col-pri">
+                      <div class="rw-cont">
+                            <div class="rw-info">
+                              <span>Call Us anytime</span>
+                              <a href="#"><%=ConfigurationManager.AppSettings["brandTFN"] %></a>
+                            </div>
+                            <div class="rw-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                      </div>        
+                  </div>
+                  <div class="rw-col bg-col-sec">
+                    <div class="rwr-cont">
+                      <div class="rw-icon">
+                          <i class="fa-solid fa-message"></i>
+                      </div>
+                      <div class="rw-info">
+                        <span>Chat LIve</span>
+                        <a href="#">To Discuss Your Project?</a>
+                      </div>
+                    </div> 
+                  </div>
+              </div>
+            </section>
+            <footer class="main-footer">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="/"><img class="foo-logo" src="assets/images/foo-logo.png" alt=""></a>
+                    <ul class="contact-info-foo">
+                      <li><i class="fa-solid fa-phone"></i> <%=ConfigurationManager.AppSettings["brandTFN"] %></li>
+                      <li><i class="fa-solid fa-envelope"></i> <%=ConfigurationManager.AppSettings["brandEmail"] %></li>
+                    </ul>
+
+                    <img class="img-fluid payment-cards-img" src="assets/images/payment-cards.jpg" alt="">
+
+                </div>
+                <div class="col-md-3">
+                    <h6>Explore</h6>
+                    <ul class="foo-menu">
+                        <li><a href="/about">About</a></li>                            
+                        <li><a href="/contact-us">Contact</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Sitemap</a></li>                            
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="foo-menu">
+                        <li><a href="/trademark-registration">Trademark Registration</a></li>
+                        <li><a href="/trademark-search">Search Report Service</a></li>
+                        <li><a href="/copyright-registration">Copyright Registration</a></li>
+                        <li><a href="/amazone-brand-registry">Amazon Brand Registry</a></li>
+                        <li><a href="/company-formation">Company Formation</a></li>
+                    </ul>                   
+                </div>
+                <div class="col-md-3">
+                    <h6>Learn More</h6>
+                    <ul class="foo-menu">
+                      <li><a href="">Legal and Help</a></li>
+                      <li><a href="">Legal Form</a></li>
+                    </ul>                    
+                </div>
+            </div>
+          </div>
+          
+          <div class="copyright">
+              <p>©2023 Brand-name.com, Inc. All rights reserved.</p>
+          </div>
+    </footer>
     </div>
-    </form>
+
+    <script src="assets/js/vendors-min.js"></script>
+        <script src="assets/js/form-functions.js"></script>
+        <script src="assets/js/intlTelInput-17.0.8.js"></script>
+       
+        <script src="assets/js/custom.js"></script>
+        <script>
+                $(document).ready(function(){
+	                $('#nav-icon1').click(function(){
+		                $(this).toggleClass('open');
+	                });
+                });
+        </script>
+
 </body>
 </html>

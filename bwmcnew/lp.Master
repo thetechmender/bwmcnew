@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="lp.master.cs" Inherits="Demo.lp" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">       
+    <link rel="icon" type="image/x-icon" size="16x16" href="favicon.png">         
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/lp-style.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/intlTelInput.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <asp:ContentPlaceHolder ID="headLP" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body> 
+    <header class="lp-header">
+        <div class="container">
+              <div class="lp-header">
+                  <div class="logo"><a class="ctm-navbar-brand" href=""><img src="assets/images/logo.png" alt=""></a></div>
+                  <div class="chat-holder">
+                      <div class="chat-icon">
+                          <i class="fas fa-comment-alt"></i>
+                      </div>
+                      <div class="chat-text">
+                           <span class="chat-label">CHAT LIVE"</span>
+                           <a href="#">To Discuss Your Project</a>
+                      </div>
+                  </div>
+              </div>  
+        </div>
+    </header>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <section class="ready-to-work space-p-t">        
+              <div class="section-title text-center mb-3 mb-md-5">
+                <h3>Ready to Work</h3>
+                <p>#1 choice for online small business formation</p>
+              </div>
+              <div class="rw-row">
+                  <div class="rw-col bg-col-pri">
+                      <div class="rw-cont">
+                            <div class="rw-info">
+                              <span>Call Us anytime</span>
+                              <a href="#"><%=ConfigurationManager.AppSettings["brandTFN"] %></a>
+                            </div>
+                            <div class="rw-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                      </div>        
+                  </div>
+                  <div class="rw-col bg-col-sec">
+                    <div class="rwr-cont">
+                      <div class="rw-icon">
+                          <i class="fa-solid fa-message"></i>
+                      </div>
+                      <div class="rw-info">
+                        <span>Chat LIve</span>
+                        <a href="#">To Discuss Your Project?</a>
+                      </div>
+                    </div> 
+                  </div>
+              </div>
+            </section>
+            <footer class="main-footer">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                     <a href="#"><img class="foo-logo mb-3" src="assets/images/foo-logo.png" alt=""></a>
+                    <ul class="pp-lp">
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+          
+          <div class="copyright">
+              <div class="container">
+                   <div class="row">                       
+                       <div class="col-md-6 text-md-start">
+                            <p>©2023 Brand-name.com, Inc. All rights reserved.</p>
+                       </div>
+                       <div class="col-md-6 text-md-end">
+                            <img class="payment-cards-img" src="assets/images/payment-cards.jpg" alt="">
+                       </div>
+                   </div>
+              </div>              
+          </div>
+    </footer>
+    </div>
+
+    <script src="assets/js/vendors-min.js"></script>
+        <script src="assets/js/form-functions.js"></script>
+        <script src="assets/js/intlTelInput-17.0.8.js"></script>
+       
+        <script src="assets/js/custom.js"></script>
+
+
+</body>
+</html>
