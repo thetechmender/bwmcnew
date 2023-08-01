@@ -14,7 +14,7 @@
                 <h1 class="mainbanner-title fw-light"><span class="pri-highlight">Yout Trusted</span> Partners In</h1>
                 <h2 class="mainbanner-title fw-bold mb-4">Business <span class="pri-highlight">Financial</span> Management</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-                <button class="downarrow-btn"> <i class="fa-solid fa-down-long"></i> </button>
+                <a href="#about-section" class="downarrow-btn"> <i class="fa-solid fa-down-long"></i> </a>
             </div>
         </div>
         <div class="logos-holder-container">
@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="about-section space-m-b">
+    <section id="about-section" class="about-section space-m-b">
         <div class="container">
           <div class="row align-items-center">
               <div class="col-md-6">
@@ -121,34 +121,208 @@
                 <div class="col-md-3">
                     <div class="counter-icon-box">
                         <img class="cont-icon" src="assets/images/counter-icon-1.png" />
-                        <div class="counter-no counter">1452</div>
+                        <div id="example1" class="counter-no">0</div>    
+                        <!--For the change value of counter go to custom js file-->
                         <span>Happy Clients</span>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="counter-icon-box">
                         <img class="cont-icon" src="assets/images/counter-icon-2.png" />
-                        <div class="counter-no counter">1200</div>
+                        <div id="example2" class="counter-no">0</div>
+                        <!--For the change value of counter go to custom js file-->
                         <span>Project Complete</span>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="counter-icon-box">
-                        <img class="cont-icon" src="assets/images/counter-icon-3.png" />
-                        <div class="counter-no counter">10</div>
+                        <img class="cont-icon" src="assets/images/counter-icon-3.png" />                        
+                        <div id="example3" class="counter-no">0</div>
+                        <!--For the change value of counter go to custom js file-->
                         <span>Years Experience</span>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="counter-icon-box">
                         <img class="cont-icon" src="assets/images/counter-icon-4.png" />
-                        <span class="counter">1,234,567</span>
-                        <div class="counter-no counter">50</div>
+                        <div id="example4" class="counter-no">0</div>
+                        <!--For the change value of counter go to custom js file-->
                         <span>Team Members</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="space-p-tb"> 
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-7">
+                    <h3 class="main-heding mb-3">Reasons to choose us</h3>
+                    <div class="choose-us-slider">
+                        <div class="slide-box">                              
+                            <h4>Flexible solutions Best For your business.</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                        </div>
+                        <div class="slide-box">                              
+                            <h4>Flexible solutions Best For your business.</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                        </div> 
+                        <div class="slide-box">                              
+                            <h4>Flexible solutions Best For your business.</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-md-5">
+                    <img class="img-fluid" src="assets/images/choose-us-img-png.png" />
+                </div>
+            </div>
+        </div>
+    </section>
     
+    <section class="cta-section space-p-tb" style="background-image:url(assets/images/cta-bg.jpg);"> 
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-7 col-xl-8">
+                    <span class="cta-mini-title">Make Your First Move</span>
+                    <h3 class="cta-title">Be in control of your finance</h3>
+                </div>
+                <div class="col-md-6 col-lg-5 col-xl-4">
+                     <div class="cta-info-holder">
+                         <div class="cta-icon-box">
+                             <div class="cta-icon">
+                                 <img src="assets/images/cta-phone-icon.png" />
+                             </div>
+                             <div class="cta-info">
+                                 <span>Call Us Now</span>
+                                 <a class="cta-phone" href="tel:123456789">(123) 455 7890</a>
+                             </div>
+                         </div>
+                        <div class="cta-icon-box">
+                             <div class="cta-icon">
+                                 <img src="assets/images/cta-chat-icon.png" />
+                             </div>
+                             <div class="cta-info">
+                                 <span>Click Here to</span>
+                                 <a class="cta-phone" href="#">Live Chat</a>
+                             </div>
+                         </div>
+                       
+                     </div>
+                     <a class="cta-btn-main" href="#">Book Your Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs-section space-p-tb">
+        <div class="container">
+            <h3 class="main-heding text-center mb-3 mb-md-5">Our Blogs</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="blog-post-box">
+                        <img class="post-img img-fluid" src="assets/images/blog-post-img-1.jpg" />
+                        <div class="post-content">
+                            <span class="post-date">DEC 20,2022</span>
+                            <h4 class="post-title">what are tax losses and how can they be applied to corporate Tax</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc the when an unknown printer took a galley of type and scrambled</p>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-md-6">
+                    <div class="blog-post-box">
+                        <img class="post-img img-fluid" src="assets/images/blog-post-img-2.jpg" />
+                        <div class="post-content">
+                            <span class="post-date">DEC 20,2022</span>
+                            <h4 class="post-title">UAE Corporate tax: Requirements tor Registration, deregistration & filing retuns</h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sinc the when an unknown printer took a galley of type and scrambled</p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-sec space-p-tb section-bg-dark">
+        <div class="container">           
+            <div class="row">
+                <div class="col-md-6">
+                   <h3 class="main-heding mb-3 mb-md-5 text-white">Testimonials</h3>
+                    <div class="reviewer-slider">
+                        <div class="rwr-slide">
+                              <div class="rwr-image-holder">
+                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.jpg" />
+                                    <span class="quote-img">"</span>
+                              </div>
+                              <div class="rwr-info">
+                                  <h5 class="mb-0">Andrew Garcia</h5>
+                                  <span class="desig">Brand Manager</span>
+                              </div>
+                        </div>
+                        <div class="rwr-slide">
+                              <div class="rwr-image-holder">
+                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.jpg" />
+                                    <span class="quote-img">"</span>
+                              </div>
+                              <div class="rwr-info">
+                                  <h5 class="mb-0">Andrew Garcia</h5>
+                                  <span class="desig">Brand Manager</span>
+                              </div>
+                        </div>
+                        <div class="rwr-slide">
+                              <div class="rwr-image-holder">
+                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.jpg" />
+                                    <span class="quote-img">"</span>
+                              </div>
+                              <div class="rwr-info">
+                                  <h5 class="mb-0">Andrew Garcia</h5>
+                                  <span class="desig">Brand Manager</span>
+                              </div>
+                        </div>
+                        <div class="rwr-slide">
+                              <div class="rwr-image-holder">
+                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.jpg" />
+                                    <span class="quote-img">"</span>
+                              </div>
+                              <div class="rwr-info">
+                                  <h5 class="mb-0">Andrew Garcia</h5>
+                                  <span class="desig">Brand Manager</span>
+                              </div>
+                        </div>                        
+
+                    </div>                      
+                </div>
+                <div class="col-md-6">
+                    <div class="review-slider">
+                        <div class="review-slide">
+                            <div class="tm-cont">
+                                <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
+                                 When it comes to creating specialized, creative, and useful websites, no company can surpass Design Vocals. Thanks to their ability & skilled staff, our site has taken off in the search engines like a rocket
+                            </div>  
+                        </div>
+                        <div class="review-slide">
+                            <div class="tm-cont">
+                                <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum non ante ac condimentum. Cras quis dapibus enim. Pellentesque dignissim aliquam lectus eget iaculis
+                            </div> 
+                        </div>
+                        <div class="review-slide">
+                            <div class="tm-cont">
+                                <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
+                                 Vivamus faucibus pretium risus, vel efficitur magna sodales non. Nullam et massa eu libero sagittis luctus. Sed porta viverra quam non tempor. Fusce tincidunt augue felis, imperdiet aliquet tellus porta at
+                            </div> 
+                        </div>
+                        <div class="review-slide">
+                            <div class="tm-cont">
+                                <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
+                                Mauris et maximus leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis sed tellus purus. In pharetra tristique dolor in malesuada. 
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </asp:Content>

@@ -106,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="assets\css\ajax-loader.gif" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\form-functions.js" />
     <Content Include="assets\css\intlTelInput.min.css" />
@@ -114,9 +115,13 @@
     <Content Include="assets\css\slick.css" />
     <Content Include="assets\css\style.css" />
     <Content Include="assets\css\utils.js" />
+    <Content Include="assets\fonts\slick.svg" />
     <Content Include="assets\images\about-image.jpg" />
     <Content Include="assets\images\awards-icons.png" />
     <Content Include="assets\images\bg-counter.jpg" />
+    <Content Include="assets\images\blog-post-img-1.jpg" />
+    <Content Include="assets\images\blog-post-img-2.jpg" />
+    <Content Include="assets\images\choose-us-img-png.png" />
     <Content Include="assets\images\client-logo-1.png" />
     <Content Include="assets\images\client-logo-2.png" />
     <Content Include="assets\images\client-logo-3.png" />
@@ -126,20 +131,25 @@
     <Content Include="assets\images\counter-icon-2.png" />
     <Content Include="assets\images\counter-icon-3.png" />
     <Content Include="assets\images\counter-icon-4.png" />
+    <Content Include="assets\images\cta-bg.jpg" />
+    <Content Include="assets\images\cta-chat-icon.png" />
+    <Content Include="assets\images\cta-phone-icon.png" />
     <Content Include="assets\images\footer-logo.png" />
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\main-banner-image.jpg" />
     <Content Include="assets\images\our-services-img-1.png" />
+    <Content Include="assets\images\quotes-icon.png" />
     <Content Include="assets\images\serv-img-1.jpg" />
     <Content Include="assets\images\serv-img-2.jpg" />
     <Content Include="assets\images\serv-img-3.jpg" />
+    <Content Include="assets\images\tm-image-1.jpg" />
     <Content Include="assets\images\trusted-icons.png" />
     <Content Include="assets\img\flags%402x.png" />
     <Content Include="assets\img\flags.png" />
+    <Content Include="assets\js\counter.min.js" />
     <Content Include="assets\js\custom.js" />
     <Content Include="assets\js\form-functions.js" />
     <Content Include="assets\js\intlTelInput-17.0.8.js" />
-    <Content Include="assets\js\jquery.counterup.min.js" />
     <Content Include="assets\js\utils.js" />
     <Content Include="assets\js\vendors-min.js" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -258,6 +268,9 @@
     <Content Include="packages\Newtonsoft.Json.12.0.2\Newtonsoft.Json.12.0.2.nupkg" />
     <Content Include="packages\WebGrease.1.6.0\.signature.p7s" />
     <Content Include="packages\WebGrease.1.6.0\WebGrease.1.6.0.nupkg" />
+    <Content Include="assets\fonts\slick.eot" />
+    <Content Include="assets\fonts\slick.ttf" />
+    <Content Include="assets\fonts\slick.woff" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="includes\inner-banner-form.aspx" />
