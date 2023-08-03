@@ -95,52 +95,65 @@
                   </div>
               </div>
             </section>
-            <footer class="main-footer">
-          <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="/"><img class="foo-logo" src="assets/images/foo-logo.png" alt=""></a>
-                    <ul class="contact-info-foo">
-                      <li><i class="fa-solid fa-phone"></i> <%=ConfigurationManager.AppSettings["brandTFN"] %></li>
-                      <li><i class="fa-solid fa-envelope"></i> <%=ConfigurationManager.AppSettings["brandEmail"] %></li>
-                    </ul>
+          <footer class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="/"><img class="foo-logo" src="assets/images/footer-logo.png" alt=""></a>
+                        <p class="mt-2 mb-2">A business financial management company that helps you to manage your assets in time and avoid the risks of bankruptcy.</p>
+                        <ul class="contact-info-foo">
+                            <li><i class="fa-solid fa-phone"></i><%=ConfigurationManager.AppSettings["brandTFN"] %></li>
+                            <li><i class="fa-solid fa-envelope"></i><%=ConfigurationManager.AppSettings["brandEmail"] %></li>
+                            <li><i class="fa-solid fa-location-dot"></i> Pin Location</li>
+                        </ul>
 
-                    <img class="img-fluid payment-cards-img" src="assets/images/payment-cards.jpg" alt="">
+                        <img class="img-fluid payment-cards-img" src="assets/images/payment-cards.jpg" alt="">
+                    </div>
+                    <div class="col-md-2">
+                        <h6>Quick Links</h6>
+                        <ul class="foo-menu">
+                            <li><a href="/about">Blog Details</a></li>                            
+                            <li><a href="/contact-us">Case Details</a></li>
+                            <li><a href="#">Pricing Plans</a></li>
+                            <li><a href="#">Team Details </a></li>                      
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="foo-menu mt-0 mt-md-5">
+                            <li><a href="#">Service Details</a></li>
+                            <li><a href="#">About Us</a></li>
+<%--                            <li><a href="#">Contact Us</a></li>--%>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <h6 class="mb-2">Newsletter Subscription</h6>
+                        <p>Get valuable insights about how you can save your company.</p>
+                        
+                        <form>
+                            <div class="form-holder">
+                                <input type="email" class="form-control" id="subs-email" placeholder="Enetr Your Email">
+                                <button type="submit" class="btn subs-btn">Send</button>
+                            </div>
+                        </form>
 
-                </div>
-                <div class="col-md-3">
-                    <h6>Explore</h6>
-                    <ul class="foo-menu">
-                        <li><a href="/about">About</a></li>                            
-                        <li><a href="/contact-us">Contact</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Sitemap</a></li>                            
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h6>Quick Links</h6>
-                    <ul class="foo-menu">
-                        <li><a href="/trademark-registration">Trademark Registration</a></li>
-                        <li><a href="/trademark-search">Search Report Service</a></li>
-                        <li><a href="/copyright-registration">Copyright Registration</a></li>
-                        <li><a href="/amazone-brand-registry">Amazon Brand Registry</a></li>
-                        <li><a href="/company-formation">Company Formation</a></li>
-                    </ul>                   
-                </div>
-                <div class="col-md-3">
-                    <h6>Learn More</h6>
-                    <ul class="foo-menu">
-                      <li><a href="">Legal and Help</a></li>
-                      <li><a href="">Legal Form</a></li>
-                    </ul>                    
+                        <div class="follow-us">
+                            <h6 class="mb-2">Follow Us</h6>
+                            <ul class="follow-us-list">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
-          
-          <div class="copyright">
-              <p>©2023 Brand-name.com, Inc. All rights reserved.</p>
-          </div>
-    </footer>
+
+            <div class="copyright">
+                <p>©2023 Brand-name.com, Inc. All rights reserved.</p>
+            </div>
+        </footer>
     </div>
 
     <script src="assets/js/vendors-min.js"></script>
