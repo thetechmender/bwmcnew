@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Demo._Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeaderContent" runat="server">
-    <title>Initiate the process of trademark registration now</title>
-    <meta name="keywords" content="Trademark registration, Trademark, Copyright filing, Trademark registered, Trademark search USPTO, Trademark search, Trademark symbol">
-    <meta name="description" content="Trademark registration is a lengthy process, but with us, it has become one of the least complex processes. Contact us to learn more">
+    <title>Business financial management to the core</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="Financial management of a business can be complex, yet the most vulnerable, which is why it is important to partner with a company that can help you out effectively">
 </asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -11,9 +11,10 @@
       <div class="container text-center">
         <div class="banner-content">
             <div>
-                <h1 class="mainbanner-title fw-light"><span class="pri-highlight">Yout Trusted</span> Partners In</h1>
-                <h2 class="mainbanner-title fw-bold mb-4">Business <span class="pri-highlight">Financial</span> Management</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
+                <h1 class="mainbanner-title fw-light"><span class="pri-highlight">Need assistance</span> with Business </h1>
+                <h2 class="mainbanner-title fw-bold"> <span class="pri-highlight">Financial</span> Management? You got it</h2>
+                <p>Bridgewater has been in the financial management industry for a long time and understands the fundamentals of their works. 
+                    From getting your procurement managed to managing your employees’ salaries, we take everything under our control.</p>    
                 <a href="#about-section" class="downarrow-btn"> <i class="fa-solid fa-down-long"></i> </a>
             </div>
         </div>
@@ -35,24 +36,24 @@
           <div class="row align-items-center">
               <div class="col-md-3">              
                 <h3 class="main-heding">Our Clients</h3>
-                <p class="font-dark-color">A trusted Application Development company in Dubai and beyond</p>
+                <p class="font-dark-color">A trusted financial management company in Dubai and beyond</p>
               </div>
               <div class="col-md-9">
                    <div class="clients-logos">
                        <div>
-                           <img src="assets/images/client-logo-1.png" />
+                           <img src="assets/images/client-logo-1.png" class="img-fluid" />
                        </div>
                         <div>
-                           <img src="assets/images/client-logo-2.png" />
+                           <img src="assets/images/client-logo-2.png" class="img-fluid" />
                        </div>
                        <div>
-                           <img src="assets/images/client-logo-3.png" />
+                           <img src="assets/images/client-logo-3.png" class="img-fluid" />
                        </div>
                         <div>
-                           <img src="assets/images/client-logo-4.png" />
+                           <img src="assets/images/client-logo-4.png" class="img-fluid" />
                        </div>
                        <div>
-                           <img src="assets/images/client-logo-5.png" />
+                           <img src="assets/images/client-logo-5.png" class="img-fluid" />
                        </div>                        
                    </div>
               </div>
@@ -68,10 +69,9 @@
               </div>
               <div class="col-md-6">
                     <h3 class="main-heding">About Us</h3>
-                    <p>BSA is among the top Accounting & Audit firms in UAE operating as an independent auditing and management consultancy services company. We provide expert, exceptional and credible accounting services and data-driven business growth solutions to our clients, with an up-to-date understanding and alignment under the laws of the local government bodies in UAE, and a focus on providing international standards of quality in our services. </p>
-                    <p>Purpose driven and result oriented are two strong elements which makes us push for providing the best services in our journey to be one of the best audit firms in Dubai. With our expert team of auditors, tax and management consultants and our meticulous eye for data driven results, we provide practical solutions coupled with value creation for companies operating across different industries. Our process of analyzing a client's business needs, the foresight of setting growth oriented strategic goals and serving as advisors in driving those goals to fruition, gives us the edge amongst others.</p>
-
-                    <a class="ctm-pri-btn mt-3" href="#"> View Our Capablities</a>
+                    <p>Welcome to Bridgewater . We are a business financial management company that assists businesses of every size to manage their cash flows and finances effectively. We have a dedicated team for every aspect of business and an expert support team that is available 24/7 if your company faces any hurdles regarding your finances</p>
+                    <p>We are not only limited to a specific place, instead, we cater businesses all over the globe. We have our roots grounded to every major city of the world, including the USA and the business hub, UAE. Furthermore, Bridgewater is known for its accuracy and dedication. We understand how important it is to manage your finances efficiently in order to grab new opportunities and this is why we offer outstanding services to our clients. Regardless of your business size, we welcome everyone to the family and treat everyone with the same respect and dignity.</p> 
+                  <a class="ctm-pri-btn mt-3" href="#"> View Our Capablities</a>
               </div>
           </div>
         </div>
@@ -86,8 +86,8 @@
               <div class="col-md-8 text-md-end font-dark-color">
                   <div class="serv-cont-holder">
                     <h3 class="main-heding mb-4">Our Services</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-                    <a class="ctm-pri-btn mt-3" href="#"> Get Started</a>
+                      <p>We wish to be the number 1 choice of businesses when they look out for financial management partners which is why we offer a wide array of services. Our services are a best fit for businesses of all sizes, from small to midsized businesses to large and established corporations. </p>  
+                      <a class="ctm-pri-btn mt-3" href="#"> Get Started</a>
                    </div>
               </div>
            </div>
@@ -96,13 +96,13 @@
                 <div class="col-md-4">
                     <div class="srv-image-box">
                         <img class="img-fluid" src="assets/images/serv-img-1.jpg" />
-                        <span class="serv-box-title">Audit & Assurance</span>
+                        <span class="serv-box-title">Internal Audit</span>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="srv-image-box">
                         <img class="img-fluid" src="assets/images/serv-img-2.jpg" />
-                        <span class="serv-box-title">Audit & Assurance</span>
+                        <span class="serv-box-title">Accounting & Bookkeeping</span>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -158,20 +158,24 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-7">
-                    <h3 class="main-heding mb-3">Reasons to choose us</h3>
+                    <h3 class="main-heding mb-3">Why choose Bridgewater ?</h3>
                     <div class="choose-us-slider">
                         <div class="slide-box">                              
-                            <h4>Flexible solutions Best For your business.</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                            <h4>Expert Auditors</h4>
+                            <p>We have gathered the best talents in town to assist our clients in every possible way. Our expert team belongs to a diverse background and have been a part of different industries so that we can become unstoppable and can be helpful for everyone. We understand that every organization needs financial assistance at moments, which is why we always offer prestigious services to every business. Whether you want a simple audit or a complete account statement, we got it covered.</p>  
                         </div>
                         <div class="slide-box">                              
-                            <h4>Flexible solutions Best For your business.</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                            <h4>Cultural Awareness</h4>
+                           <p>Understanding the diverse cultural aspects of businesses is essential in today's globalized world. At Bridgewater , we emphasize cultural awareness as a key component of our service approach. Our team comprises professionals from diverse backgrounds, enabling us to navigate the complexities of cross-cultural business environments with ease. By recognizing and respecting the cultural nuances of our clients, we forge stronger connections, fostering effective communication and collaboration for successful financial management.</p>
                         </div> 
                         <div class="slide-box">                              
-                            <h4>Flexible solutions Best For your business.</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+                            <h4>Quality Standards</h4>
+                            <p>At Bridgewater , we pride ourselves on maintaining the highest quality standards in all our financial management services. As a testament to our commitment to excellence and adherence to industry best practices, we are proud holders of the prestigious AFM (Authority for the Financial Markets) license, ensuring regulatory compliance and credibility in the financial services realm. Moreover, our membership with both the NBA (National Board of Accountants) and SRA (Solicitors Regulation Authority) further solidifies our dedication to upholding the utmost ethical and professional standards. </p>
                         </div>
+                        <div class="slide-box">                              
+                            <h4>Communication</h4>
+                            <p>Open and transparent communication is the backbone of our client relationships at Bridgewater . We understand that effective communication is vital in establishing a deep understanding of your business's financial needs and goals. Our team actively listens to your concerns and queries, providing clear explanations and actionable insights in return. Whether it's discussing audit findings or strategizing financial plans, we ensure that our communication is prompt, accessible, and tailored to your preferences, fostering a collaborative and productive partnership throughout our engagement.</p>
+                         </div>
                     </div>                    
                 </div>
                 <div class="col-md-5">
@@ -185,8 +189,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-7 col-xl-8">
-                    <span class="cta-mini-title">Make Your First Move</span>
-                    <h3 class="cta-title">Be in control of your finance</h3>
+                    <span class="cta-mini-title">What are you waiting for?</span>
+                    <h3 class="cta-title">Partner with us and manage your finances with a different experience</h3>
                 </div>
                 <div class="col-md-6 col-lg-5 col-xl-4">
                      <div class="cta-info-holder">
@@ -196,7 +200,7 @@
                              </div>
                              <div class="cta-info">
                                  <span>Call Us Now</span>
-                                 <a class="cta-phone" href="tel:123456789">(123) 455 7890</a>
+                                 <a class="cta-phone" href="tel:<%=ConfigurationManager.AppSettings["brandTFN"] %>"><%=ConfigurationManager.AppSettings["brandTFN"] %></a>
                              </div>
                          </div>
                         <div class="cta-icon-box">
@@ -216,7 +220,7 @@
         </div>
     </section>
 
-    <section class="blogs-section space-p-tb">
+   <%-- <section class="blogs-section space-p-tb">
         <div class="container">
             <h3 class="main-heding text-center mb-3 mb-md-5">Our Blogs</h3>
             <div class="row">
@@ -242,7 +246,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
     <section class="testimonials-sec space-p-tb section-bg-dark">
         <div class="container">           
@@ -252,42 +256,42 @@
                     <div class="reviewer-slider">
                         <div class="rwr-slide">
                               <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.jpg" />
+                                    <img class="tm-img img-fluid" src="assets/images/tm-image-2.png" />
                                     <span class="quote-img">"</span>
                               </div>
                               <div class="rwr-info">
-                                  <h5 class="mb-0">Andrew Garcia</h5>
-                                  <span class="desig">Brand Manager</span>
+                                  <h5 class="mb-0">John Smith </h5>
+                                  <span class="desig">From TechX Solutions</span>
                               </div>
                         </div>
                         <div class="rwr-slide">
                               <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.jpg" />
+                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.png" />
                                     <span class="quote-img">"</span>
                               </div>
                               <div class="rwr-info">
-                                  <h5 class="mb-0">Andrew Garcia</h5>
-                                  <span class="desig">Brand Manager</span>
+                                  <h5 class="mb-0">Sarah Johnson </h5>
+                                  <span class="desig">From FashionHouse Inc.</span>
                               </div>
                         </div>
                         <div class="rwr-slide">
                               <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.jpg" />
+                                    <img class="tm-img img-fluid" src="assets/images/tm-image-4.png" />
                                     <span class="quote-img">"</span>
                               </div>
                               <div class="rwr-info">
-                                  <h5 class="mb-0">Andrew Garcia</h5>
-                                  <span class="desig">Brand Manager</span>
+                                  <h5 class="mb-0">Michael Anderson </h5>
+                                  <span class="desig">From FoodLinx Co.</span>
                               </div>
                         </div>
                         <div class="rwr-slide">
                               <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.jpg" />
+                                    <img class="tm-img img-fluid" src="assets/images/tm-image-3.png" />
                                     <span class="quote-img">"</span>
                               </div>
                               <div class="rwr-info">
-                                  <h5 class="mb-0">Andrew Garcia</h5>
-                                  <span class="desig">Brand Manager</span>
+                                  <h5 class="mb-0">Emily Roberts</h5>
+                                  <span class="desig">From GreenTech Solutions Ltd.</span>
                               </div>
                         </div>                        
 
@@ -298,31 +302,30 @@
                         <div class="review-slide">
                             <div class="tm-cont">
                                 <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
-                                 When it comes to creating specialized, creative, and useful websites, no company can surpass Design Vocals. Thanks to their ability & skilled staff, our site has taken off in the search engines like a rocket
-                            </div>  
+                                "Working with Bridgewater has been a game-changer for our company. Their financial management services have not only streamlined our budgeting and forecasting processes but also provided us with valuable insights for strategic decision-making."
+                             </div>  
                         </div>
                         <div class="review-slide">
                             <div class="tm-cont">
                                 <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
-                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum non ante ac condimentum. Cras quis dapibus enim. Pellentesque dignissim aliquam lectus eget iaculis
-                            </div> 
+                                    "Bridgewater has been an invaluable partner in our financial journey. Their team's expertise in business financial management has helped us navigate through challenging times and capitalize on growth opportunities. We are grateful for their dedication and unwavering commitment to our success."
+                             </div> 
                         </div>
                         <div class="review-slide">
                             <div class="tm-cont">
                                 <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
-                                 Vivamus faucibus pretium risus, vel efficitur magna sodales non. Nullam et massa eu libero sagittis luctus. Sed porta viverra quam non tempor. Fusce tincidunt augue felis, imperdiet aliquet tellus porta at
-                            </div> 
+                             "As a rapidly expanding startup, having Bridgewater as our financial management partner has been a blessing. Their cultural awareness and understanding of our business needs have been exceptional. From financial planning to compliance, their team has guided us every step of the way, ensuring we stay on track for success."
+                              </div> 
                         </div>
                         <div class="review-slide">
                             <div class="tm-cont">
                                 <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
-                                Mauris et maximus leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis sed tellus purus. In pharetra tristique dolor in malesuada. 
-                            </div> 
+                                "Bridgewater 's commitment to quality and professionalism is unmatched. Their team's in-depth knowledge of financial management, coupled with their AFM license and memberships with NBA and SRA, instills confidence and trust in their capabilities. Their tailored strategies have exceeded our expectations, and we sincerely thank them for their invaluable contributions to our company's growth and stability."
+                             </div> 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 </asp:Content>

@@ -488,7 +488,7 @@ h1 {
 /*Testimonials*/
 .tm-cont {
     color: #fff;
-    font-size: 25px;
+    font-size: calc(14px + (18 - 14) * (100vw - 320px) / (1920 - 320)) ;
     font-weight: 300;
     font-style: italic;
 }
@@ -672,7 +672,7 @@ h1 {
 .contact-info-foo {
   list-style: none;
   padding-left: 0;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -891,6 +891,20 @@ h1 {
     }
     /* `lg` applies to medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
+
+        #main-nav {
+            align-items: normal;
+            background: #004dc7f0;
+            padding: 19px;
+        }
+
+        .btn-contact {
+            background-color: inherit;
+            color: #fff;
+            padding: 12px 0px !important;
+            margin-left: 0px;
+            border-radius: 0;
+        }
 
         #main-nav .nav-link {
             border-bottom: 1px solid #ccc;
