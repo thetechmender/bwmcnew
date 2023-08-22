@@ -7,7 +7,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
 
-   <section class="ctm-banner" style="background-image: url(assets/images/main-banner-image.jpg);">
+   <section class="ctm-banner" style="background-image: url(/assets/images/main-banner-image.jpg);">
       <div class="container text-center">
         <div class="banner-content">
             <div>
@@ -21,10 +21,10 @@
         <div class="logos-holder-container">
             <div class="row align-items-center">
                 <div class="col-md-6 text-md-start">
-                    <img class="img-fluid" src="assets/images/trusted-icons.png"/>
+                    <img class="img-fluid" src="/assets/images/trusted-icons.png"/>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <img class="img-fluid" src="assets/images/awards-icons.png"/>
+                    <img class="img-fluid" src="/assets/images/awards-icons.png"/>
                 </div>
             </div>
         </div>
@@ -34,26 +34,26 @@
     <section class="clients-logos-sec">
         <div class="container">
           <div class="row align-items-center">
-              <div class="col-md-3">              
+              <div class="col-lg-3 col-md-3">              
                 <h3 class="main-heding">Our Clients</h3>
-                <p class="font-dark-color">A trusted financial management company in Dubai and beyond</p>
+                <p class="font-dark-color mb-4">A trusted financial management company in Dubai and beyond</p>
               </div>
-              <div class="col-md-9">
+              <div class="col-lg-9 col-md-9">
                    <div class="clients-logos">
-                       <div>
-                           <img src="assets/images/client-logo-1.png" class="img-fluid" />
+                       <div class="mb-3">
+                           <img src="/assets/images/client-logo-1.png" />
                        </div>
-                        <div>
-                           <img src="assets/images/client-logo-2.png" class="img-fluid" />
+                        <div class="mb-3">
+                           <img src="/assets/images/client-logo-2.png" />
                        </div>
-                       <div>
-                           <img src="assets/images/client-logo-3.png" class="img-fluid" />
+                       <div class="mb-3">
+                           <img src="/assets/images/client-logo-3.png" />
                        </div>
-                        <div>
-                           <img src="assets/images/client-logo-4.png" class="img-fluid" />
+                        <div class="mb-3">
+                           <img src="/assets/images/client-logo-4.png" />
                        </div>
-                       <div>
-                           <img src="assets/images/client-logo-5.png" class="img-fluid" />
+                       <div class="mb-3">
+                           <img src="/assets/images/client-logo-5.png" />
                        </div>                        
                    </div>
               </div>
@@ -65,7 +65,7 @@
         <div class="container">
           <div class="row align-items-center">
               <div class="col-md-6">
-                   <img class="img-fluid" src="assets/images/about-image.jpg" />
+                   <img class="img-fluid" src="/assets/images/about-image.jpg" />
               </div>
               <div class="col-md-6">
                     <h3 class="main-heding">About Us</h3>
@@ -80,14 +80,14 @@
    <section class="about-section space-p-tb section-bg">
         <div class="container">
           <div class="row align-items-center">
-              <div class="col-md-4">
-                   <img class="img-fluid" src="assets/images/our-services-img-1.png" />
+              <div class="col-md-4 mb-4">
+                   <img class="img-fluid" src="/assets/images/our-services-img-1.png" />
               </div>
-              <div class="col-md-8 text-md-end font-dark-color">
+              <div class="col-md-8 text-md-end font-dark-color ">
                   <div class="serv-cont-holder">
                     <h3 class="main-heding mb-4">Our Services</h3>
                       <p>We wish to be the number 1 choice of businesses when they look out for financial management partners which is why we offer a wide array of services. Our services are a best fit for businesses of all sizes, from small to midsized businesses to large and established corporations. </p>  
-                      <a class="ctm-pri-btn mt-3" href="#"> Get Started</a>
+                      <a class="ctm-pri-btn mt-3 mb-5" href="#"> Get Started</a>
                    </div>
               </div>
            </div>
@@ -95,19 +95,19 @@
             <div class="row mt-md-5">
                 <div class="col-md-4">
                     <div class="srv-image-box">
-                        <img class="img-fluid" src="assets/images/serv-img-1.jpg" />
+                        <img class="img-fluid" src="/assets/images/serv-img-1.jpg" />
                         <span class="serv-box-title">Internal Audit</span>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="srv-image-box">
-                        <img class="img-fluid" src="assets/images/serv-img-2.jpg" />
+                        <img class="img-fluid" src="/assets/images/serv-img-2.jpg" />
                         <span class="serv-box-title">Accounting & Bookkeeping</span>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="srv-image-box">
-                        <img class="img-fluid" src="assets/images/serv-img-3.jpg" />
+                        <img class="img-fluid" src="/assets/images/serv-img-3.jpg" />
                         <span class="serv-box-title">Audit & Assurance</span>
                     </div>
                 </div>
@@ -115,12 +115,12 @@
         </div>
    </section>
 
-    <section class="counter-section space-p-tb" style="background-image:url(assets/images/bg-counter.jpg);">
+    <section class="counter-section space-p-tb" style="background-image:url(/assets/images/bg-counter.jpg);">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-3">
                     <div class="counter-icon-box">
-                        <img class="cont-icon" src="assets/images/counter-icon-1.png" />
+                        <img class="cont-icon" src="/assets/images/counter-icon-1.png" />
                         <div id="example1" class="counter-no">0</div>    
                         <!--For the change value of counter go to custom js file-->
                         <span>Happy Clients</span>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="counter-icon-box">
-                        <img class="cont-icon" src="assets/images/counter-icon-2.png" />
+                        <img class="cont-icon" src="/assets/images/counter-icon-2.png" />
                         <div id="example2" class="counter-no">0</div>
                         <!--For the change value of counter go to custom js file-->
                         <span>Project Complete</span>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="counter-icon-box">
-                        <img class="cont-icon" src="assets/images/counter-icon-3.png" />                        
+                        <img class="cont-icon" src="/assets/images/counter-icon-3.png" />                        
                         <div id="example3" class="counter-no">0</div>
                         <!--For the change value of counter go to custom js file-->
                         <span>Years Experience</span>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="counter-icon-box">
-                        <img class="cont-icon" src="assets/images/counter-icon-4.png" />
+                        <img class="cont-icon" src="/assets/images/counter-icon-4.png" />
                         <div id="example4" class="counter-no">0</div>
                         <!--For the change value of counter go to custom js file-->
                         <span>Team Members</span>
@@ -178,19 +178,19 @@
                          </div>
                     </div>                    
                 </div>
-                <div class="col-md-5">
-                    <img class="img-fluid" src="assets/images/choose-us-img-png.png" />
+                <div class="col-md-5 ">
+                    <img class="img-fluid mt-4" src="/assets/images/choose-us-img-png.png" />
                 </div>
             </div>
         </div>
     </section>
     
-    <section class="cta-section space-p-tb" style="background-image:url(assets/images/cta-bg.jpg);"> 
+    <section class="cta-section space-p-tb" style="background-image:url(/assets/images/cta-bg.jpg);"> 
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-7 col-xl-8">
                     <span class="cta-mini-title">What are you waiting for?</span>
-                    <h3 class="cta-title">Partner with us and manage your finances with a different experience</h3>
+                    <h3 class="cta-title mb-4">Partner with us and manage your finances with a different experience</h3>
                 </div>
                 <div class="col-md-6 col-lg-5 col-xl-4">
                      <div class="cta-info-holder">
@@ -256,7 +256,7 @@
                     <div class="reviewer-slider">
                         <div class="rwr-slide">
                               <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="assets/images/tm-image-2.png" />
+                                    <img class="tm-img img-fluid" src="/assets/images/tm-image-2.png" />
                                     <span class="quote-img">"</span>
                               </div>
                               <div class="rwr-info">
@@ -266,7 +266,7 @@
                         </div>
                         <div class="rwr-slide">
                               <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="assets/images/tm-image-1.png" />
+                                    <img class="tm-img img-fluid" src="/assets/images/tm-image-1.png" />
                                     <span class="quote-img">"</span>
                               </div>
                               <div class="rwr-info">
@@ -276,7 +276,7 @@
                         </div>
                         <div class="rwr-slide">
                               <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="assets/images/tm-image-4.png" />
+                                    <img class="tm-img img-fluid" src="/assets/images/tm-image-4.png" />
                                     <span class="quote-img">"</span>
                               </div>
                               <div class="rwr-info">
@@ -286,7 +286,7 @@
                         </div>
                         <div class="rwr-slide">
                               <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="assets/images/tm-image-3.png" />
+                                    <img class="tm-img img-fluid" src="/assets/images/tm-image-3.png" />
                                     <span class="quote-img">"</span>
                               </div>
                               <div class="rwr-info">
@@ -301,25 +301,25 @@
                     <div class="review-slider">
                         <div class="review-slide">
                             <div class="tm-cont">
-                                <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
+                                <img class="tm-quotes-icon mb-3" src="/assets/images/quotes-icon.png" />                                
                                 "Working with Bridgewater has been a game-changer for our company. Their financial management services have not only streamlined our budgeting and forecasting processes but also provided us with valuable insights for strategic decision-making."
                              </div>  
                         </div>
                         <div class="review-slide">
                             <div class="tm-cont">
-                                <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
+                                <img class="tm-quotes-icon mb-3" src="/assets/images/quotes-icon.png" />                                
                                     "Bridgewater has been an invaluable partner in our financial journey. Their team's expertise in business financial management has helped us navigate through challenging times and capitalize on growth opportunities. We are grateful for their dedication and unwavering commitment to our success."
                              </div> 
                         </div>
                         <div class="review-slide">
                             <div class="tm-cont">
-                                <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
+                                <img class="tm-quotes-icon mb-3" src="/assets/images/quotes-icon.png" />                                
                              "As a rapidly expanding startup, having Bridgewater as our financial management partner has been a blessing. Their cultural awareness and understanding of our business needs have been exceptional. From financial planning to compliance, their team has guided us every step of the way, ensuring we stay on track for success."
                               </div> 
                         </div>
                         <div class="review-slide">
                             <div class="tm-cont">
-                                <img class="tm-quotes-icon mb-3" src="assets/images/quotes-icon.png" />                                
+                                <img class="tm-quotes-icon mb-3" src="/assets/images/quotes-icon.png" />                                
                                 "Bridgewater 's commitment to quality and professionalism is unmatched. Their team's in-depth knowledge of financial management, coupled with their AFM license and memberships with NBA and SRA, instills confidence and trust in their capabilities. Their tailored strategies have exceeded our expectations, and we sincerely thank them for their invaluable contributions to our company's growth and stability."
                              </div> 
                         </div>

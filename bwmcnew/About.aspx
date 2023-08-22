@@ -8,9 +8,9 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">    
 
 
-    <section class="inner-banner" style="background-image: url(assets/images/about-banner.jpg);">
+    <section class="inner-banner" style="background-image: url(/assets/images/about-banner.jpg);">
       <div class="container text-center">
-        <div class="banner-content">
+        <div class="inner-banner-content">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-10">
                 <h2 class="inner-title">About Us</h2>

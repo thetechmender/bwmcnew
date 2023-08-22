@@ -81,8 +81,8 @@
                     <div class="col-md-2">
                         <h6>Quick Links</h6>
                         <ul class="foo-menu">
-                            <li><a href="/about">Blog Details</a></li>                            
-                            <li><a href="/contact-us">Case Details</a></li>
+                            <li><a href="#">Blog Details</a></li>                            
+                            <li><a href="#">Case Details</a></li>
                             <li><a href="#">Pricing Plans</a></li>
                             <li><a href="#">Team Details </a></li>                      
                         </ul>
@@ -92,7 +92,7 @@
                             <li><a href="#">Service Details</a></li>
                             <li><a href="/about">About Us</a></li>
 <%--                            <li><a href="#">Contact Us</a></li>--%>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-5">
