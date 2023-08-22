@@ -454,6 +454,11 @@ h1 {
     color: #fff;
     border-color: var(--secondary-color);
 }
+.cta-btn-main1 {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
 
 .post-img {
     border-radius: 30px;
@@ -697,24 +702,127 @@ h1 {
 /* Footer End */
 
 
-
+/* About Page Css Start*/
+.inner-banner{
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    min-height:590px;
+}
+.inner-title {
+    color: #fff;
+    font-size: calc(26px + (53 - 26) * (100vw - 320px) / (1920 - 320));
+    font-weight:300;
+    
+}
+.inner-banner p {
+    color: #fff;
+    font-size:calc(13px + (17 - 13) * (100vw - 320px) / (1920 - 320));
+    font-weight:400;
+}
+.abt-sec{
+    position:relative;
+    z-index:9;
+}
+.abt-sec::before {
+  content: "";
+  background-image: url('/assets/images/light-shape.png');
+  background-repeat:no-repeat;
+  width:587px;
+  height:742px;
+  position:absolute;
+  top:0;
+  right:10%;
+  z-index:-1;
+  opacity:0.9;
+    
+}
+.medium-title {
+    color: #414141;
+    font-size: calc(23px + (33 - 23) * (100vw - 320px) / (1920 - 320));
+    font-weight:600;
+}
+.blue-text {
+    color: #0264fe;
+}
+.abt-img3{
+    position:relative;
+    top:-150px;
+}
+.sp-postion{
+    position:relative;
+}
+.sp-postion::before {
+   content: "";
+   background-color: #b2b2b2;
+   height: 1px;
+   position: absolute;
+   top: 28px;
+   width: 59%;
+   right: 8%;
+ }
+.slick-nav-btm {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 15px;
+    right:35px;
+    max-width: 50px;
+}
+.slick-nav-btm button{
+    background-color:transparent;
+    border:0;
+   
+}
+.slick-nav-btm button i {
+   font-size: 25px;
+   color: #9cc1fb;
+}
+.slick-nav-btm button:hover i{
+    color:#0264fe;
+}
+.slick-nav-btm .button i.active {
+   color: #0264fe;
+}
+.manage-box{
+    text-align:center;
+    margin-bottom:40px;
+}
+.manage-box .manage-icon i{
+    margin:0 auto;
+    padding:20px;
+    color:#0063ff;
+    font-size:50px;
+}
+.manage-box h6{
+    color:#35365f;
+    font-size: calc(22px + (27 - 22) * (100vw - 320px) / (1920 - 320));
+    font-weight:400;
+    padding-bottom:10px;
+}
+.manage-box p {
+  color: #414271;
+  font-size: calc(14px + (17 - 14) * (100vw - 320px) / (1920 - 320));
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+/* About Page Css End*/
 /* Back To Top CSS */
 #btt-button {
-  display: inline-block;
-  background-color: var(--primaryy-color);
-  width: 45px;
-  height: 45px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-  border: 1px solid transparent;
+    display: inline-block;
+    background-color: var(--primaryy-color);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    border: 1px solid transparent;
 }
 #btt-button::after {
   content: "\f077";

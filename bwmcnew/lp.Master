@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" size="16x16" href="favicon.png">         
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="icon" type="image/x-icon" size="16x16" href="/assets/images/favicon.png">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/lp-style.css">

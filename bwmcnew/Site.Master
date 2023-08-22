@@ -8,17 +8,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="icon" type="image/x-icon" size="16x16" href="favicon.png">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">   
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
-     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/intlTelInput.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link rel="icon" type="image/x-icon" size="16x16" href="/assets/images/favicon.png"/>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>   
+    <link rel="stylesheet" href="/assets/css/slick-theme.css"/>
+     <link rel="stylesheet" href="/assets/css/style.css"/>
+    <link rel="stylesheet" href="/assets/css/slick.css"/>
+    <link rel="stylesheet" href="/assets/css/intlTelInput.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />    
     <asp:ContentPlaceHolder ID="HeaderContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -41,7 +41,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul id="main-nav" class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item active"><a class="nav-link" aria-current="page" href="/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="">Careers</a></li>
                         <li class="nav-item"><a class="nav-link" href="">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="">Services</a></li>
@@ -92,7 +92,7 @@
                     <div class="col-md-2">
                         <ul class="foo-menu mt-0 mt-md-5">
                             <li><a href="#">Service Details</a></li>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="/about">About Us</a></li>
 <%--                            <li><a href="#">Contact Us</a></li>--%>
                             <li><a href="#">Contact</a></li>
                         </ul>
@@ -127,10 +127,10 @@
         </footer>
     </div>
 
-    <script src="assets/js/vendors-min.js"></script>         
-    <script src="assets/js/form-functions.js"></script>
-    <script src="assets/js/intlTelInput-17.0.8.js"></script>
-    <script src="assets/js/counter.min.js"></script>   
-    <script src="assets/js/custom.js"></script>
+    <script src="/assets/js/vendors-min.js"></script>         
+    <script src="/assets/js/form-functions.js"></script>
+    <script src="/assets/js/intlTelInput-17.0.8.js"></script>
+    <script src="/assets/js/counter.min.js"></script>   
+    <script src="/assets/js/custom.js"></script>
 </body>
 </html>
