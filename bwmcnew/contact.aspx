@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="row justify-content-center mt-4">
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="contact-box">
                         <div class="contact-icon">
                              <img class="img-fluid" src="/assets/images/contact-phone.png" />
@@ -44,7 +44,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="contact-box">
                         <div class="contact-icon">
                              <img class="img-fluid" src="/assets/images/contact-email.png" />
@@ -57,7 +57,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-3 col-md-3">
+                <div class="col-lg-3 col-md-4">
                     <div class="contact-box">
                         <div class="contact-icon">
                              <img class="img-fluid" src="/assets/images/contact-location.png" />
@@ -76,7 +76,7 @@
     <section class="space-p-tb contact-form-sec" style="background-image: url(/assets/images/contact-form-bg.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-5">
+                <div class="col-lg-5 col-md-8">
                     <div class="form-box">
                         <h3 class="main-heding text-center">We're here to help</h3>
                         <p class="text-center mb-4">Leave a message and we will get back to you.</p>

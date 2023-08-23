@@ -9,7 +9,7 @@
 
      <section class="inner-banner" style="background-image: url(/assets/images/contact-banner.jpg);">
       <div class="container ">
-        <div class="banner-content text-center">
+        <div class="inner-banner-content text-center">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-10">
                 <h2 class="inner-title">News</h2>

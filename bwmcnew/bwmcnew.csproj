@@ -106,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="accounting-bookkeeping.aspx" />
     <Content Include="assets\css\ajax-loader.gif" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\form-functions.js" />
@@ -116,7 +117,12 @@
     <Content Include="assets\css\style.css" />
     <Content Include="assets\css\utils.js" />
     <Content Include="assets\fonts\slick.svg" />
+    <Content Include="assets\images\about-banner.jpg" />
+    <Content Include="assets\images\about-image-1.jpg" />
+    <Content Include="assets\images\about-image-1.png" />
     <Content Include="assets\images\about-image.jpg" />
+    <Content Include="assets\images\about-img2.png" />
+    <Content Include="assets\images\about-img3.jpg" />
     <Content Include="assets\images\awards-icons.png" />
     <Content Include="assets\images\bg-counter.jpg" />
     <Content Include="assets\images\blog-post-img-1.jpg" />
@@ -127,6 +133,11 @@
     <Content Include="assets\images\client-logo-3.png" />
     <Content Include="assets\images\client-logo-4.png" />
     <Content Include="assets\images\client-logo-5.png" />
+    <Content Include="assets\images\contact-banner.jpg" />
+    <Content Include="assets\images\contact-email.png" />
+    <Content Include="assets\images\contact-form-bg.jpg" />
+    <Content Include="assets\images\contact-location.png" />
+    <Content Include="assets\images\contact-phone.png" />
     <Content Include="assets\images\counter-icon-1.png" />
     <Content Include="assets\images\counter-icon-2.png" />
     <Content Include="assets\images\counter-icon-3.png" />
@@ -134,9 +145,21 @@
     <Content Include="assets\images\cta-bg.jpg" />
     <Content Include="assets\images\cta-chat-icon.png" />
     <Content Include="assets\images\cta-phone-icon.png" />
+    <Content Include="assets\images\favicon.png" />
     <Content Include="assets\images\footer-logo.png" />
+    <Content Include="assets\images\light-shape.png" />
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\main-banner-image.jpg" />
+    <Content Include="assets\images\management-img1.png" />
+    <Content Include="assets\images\management-img2.png" />
+    <Content Include="assets\images\news-img1.jpg" />
+    <Content Include="assets\images\news-img2.jpg" />
+    <Content Include="assets\images\news-img3.jpg" />
+    <Content Include="assets\images\news-img4.jpg" />
+    <Content Include="assets\images\news-img5.jpg" />
+    <Content Include="assets\images\news-img6.jpg" />
+    <Content Include="assets\images\news-img7.jpg" />
+    <Content Include="assets\images\news-img8.jpg" />
     <Content Include="assets\images\our-services-img-1.png" />
     <Content Include="assets\images\quotes-icon.png" />
     <Content Include="assets\images\serv-img-1.jpg" />
@@ -156,6 +179,7 @@
     <Content Include="assets\js\intlTelInput-17.0.8.js" />
     <Content Include="assets\js\utils.js" />
     <Content Include="assets\js\vendors-min.js" />
+    <Content Include="audit-assurance.aspx" />
     <Content Include="bin\Antlr3.Runtime.dll" />
     <Content Include="bin\Antlr3.Runtime.pdb" />
     <Content Include="bin\AspNet.ScriptManager.bootstrap.dll" />
@@ -233,6 +257,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="internal-audit.aspx" />
     <Content Include="lp.Master" />
     <Content Include="management-accounting.aspx" />
     <Content Include="news.aspx" />
@@ -294,6 +319,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="accounting-bookkeeping.aspx.cs">
+      <DependentUpon>accounting-bookkeeping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="accounting-bookkeeping.aspx.designer.cs">
+      <DependentUpon>accounting-bookkeeping.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -303,6 +335,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="audit-assurance.aspx.cs">
+      <DependentUpon>audit-assurance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="audit-assurance.aspx.designer.cs">
+      <DependentUpon>audit-assurance.aspx</DependentUpon>
+    </Compile>
     <Compile Include="contact.aspx.cs">
       <DependentUpon>contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -347,6 +386,13 @@
     </Compile>
     <Compile Include="includes\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="internal-audit.aspx.cs">
+      <DependentUpon>internal-audit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="internal-audit.aspx.designer.cs">
+      <DependentUpon>internal-audit.aspx</DependentUpon>
     </Compile>
     <Compile Include="lp.aspx.cs">
       <DependentUpon>lp.aspx</DependentUpon>

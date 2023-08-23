@@ -98,7 +98,7 @@
         <div class="container text-center">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="cta-title">Make Your First Move</h3>
+                    <h3 class="cta-title">MIssion</h3>
                     <span class="cta-mini-title">What are you waiting for?</span>
                     <p>The business world is changing at lightning speed. To succeed, you need an agile partner to help lead you forward — not by taking the well-worn path, but by exploring every opportunity to prepare you for tomorrow.</p>
                     
@@ -121,7 +121,7 @@
                     <p class="mb-3">Protecting your value means helping you navigate regulatory requirements, identifying and mitigating risk, and improving the way you work.</p>
                     <p class="mb-3">We make your business our business — and we’re alongside you through the crests and valleys.</p>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-6 d-flex justify-content-end px-5">
                     <img class="img-fluid" src="/assets/images/about-img2.png"  />
                 </div>
             </div>
@@ -132,7 +132,7 @@
 
 
 
-    <section class="about-section space-p-t section-bg">
+    <section class="who-sec space-p-t section-bg">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 px-0">
@@ -140,12 +140,12 @@
                         <img class="img-fluid" src="/assets/images/about-img3.jpg" />
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-5">
+                <div class="col-lg-5 col-md-5 justify-content-end px-5">
                     <h3 class="main-heding fw-bold">Who we are</h3>
                     <h5 class="medium-title">Passionate. Curious. Driven.</h5>
                     <p>Our professionals, who hail from coast to coast and around the world, bring diverse perspectives, experiences and points of view to help you discover what’s possible.</p>
                     <p>As Value Architects™, we draw upon our natural sense of curiosity to uncover new opportunities with our clients and build new blueprints for success.</p>
-                    <a href="#" class="ctm-pri-btn mt-3 text-uppercase mb-4">Go there with us</a>
+                    <%--<a href="#" class="ctm-pri-btn mt-3 text-uppercase mb-4">Go there with us</a>--%>
                 </div>
             </div>
         </div>
@@ -156,7 +156,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-7 col-xl-8">
-                    <h3 class="cta-title">Committed to growth</h3>
+                    <h3 class="cta-title">Work with us</h3>
                     <p>As a member of the world’s 10th largest accounting and advisory network, our passion and curiosity separate us from the pack. We’re agile and intelligent, and we embrace the unknown — motivated by challenges and obstacles. We are confident in our quest to provide exceptional service and unmatched regional expertise.</p>
                 </div>
                 <div class="col-md-6 col-lg-5 col-xl-4">                    

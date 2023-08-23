@@ -1,18 +1,17 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="management-accounting.aspx.cs" Inherits="bwmcnew.management_accounting" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="accounting-bookkeeping.aspx.cs" Inherits="bwmcnew.accounting_bookkeeping" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeaderContent" runat="server">
-     <title>Management Accounting <%=ConfigurationManager.AppSettings["brandName"] %></title>
+      <title>Accounting & Bookkeeping <%=ConfigurationManager.AppSettings["brandName"] %></title>
     <meta name="keywords" content="">
     <meta name="description" content="">
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-      <section class="inner-banner" style="background-image: url(assets/images/about-banner.jpg);">
+     <section class="inner-banner" style="background-image: url(assets/images/about-banner.jpg);">
       <div class="container text-center">
         <div class="inner-banner-content">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-10">
-                <h2 class="inner-title">Management Accounting</h2>
+                <h2 class="inner-title">Accounting & Bookkeeping</h2>
                    <p>We are a top ten advisory tax and assurance firm dedicated to customized business solutions that generate and sustain growth. We lead with purpose, and we walk with you every step along your journey.</p> 
                 </div>
                
@@ -204,7 +203,9 @@
         </div>
     </section>
 
-        <!--  #include virtual ="/includes/testimonials-slider.aspx" --> 
+
+  
+       <!--  #include virtual ="/includes/testimonials-slider.aspx" --> 
 
 
 </asp:Content>

@@ -87,28 +87,31 @@
                   <div class="serv-cont-holder">
                     <h3 class="main-heding mb-4">Our Services</h3>
                       <p>We wish to be the number 1 choice of businesses when they look out for financial management partners which is why we offer a wide array of services. Our services are a best fit for businesses of all sizes, from small to midsized businesses to large and established corporations. </p>  
-                      <a class="ctm-pri-btn mt-3 mb-5" href="#"> Get Started</a>
+                      <a class="ctm-pri-btn mt-3 mb-5" href="/contact"> Get Started</a>
                    </div>
               </div>
            </div>
 
             <div class="row mt-md-5">
-                <div class="col-md-4">
-                    <div class="srv-image-box">
+                <div class="col-lg-4 col-md-4">
+                    <div class="srv-image-box shine-overlay">
                         <img class="img-fluid" src="/assets/images/serv-img-1.jpg" />
-                        <span class="serv-box-title">Internal Audit</span>
+                        <a href="/internal-audit" class="serv-box-title">Internal Audit</a>
+                         <div class="shine"></div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="srv-image-box">
+                <div class="col-lg-4 col-md-4">
+                    <div class="srv-image-box shine-overlay">
                         <img class="img-fluid" src="/assets/images/serv-img-2.jpg" />
-                        <span class="serv-box-title">Accounting & Bookkeeping</span>
+                       <a href="/accounting-bookkeeping"  class="serv-box-title">Accounting & Bookkeeping</a>
+                         <div class="shine"></div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="srv-image-box">
+                <div class="col-lg-4 col-md-4">
+                    <div class="srv-image-box shine-overlay">
                         <img class="img-fluid" src="/assets/images/serv-img-3.jpg" />
-                        <span class="serv-box-title">Audit & Assurance</span>
+                       <a href="/audit-assurance"  class="serv-box-title">Audit & Assurance</a>
+                         <div class="shine"></div>
                     </div>
                 </div>
             </div>
@@ -196,7 +199,7 @@
                      <div class="cta-info-holder">
                          <div class="cta-icon-box">
                              <div class="cta-icon">
-                                 <img src="assets/images/cta-phone-icon.png" />
+                                 <img src="/assets/images/cta-phone-icon.png" />
                              </div>
                              <div class="cta-info">
                                  <span>Call Us Now</span>
@@ -205,7 +208,7 @@
                          </div>
                         <div class="cta-icon-box">
                              <div class="cta-icon">
-                                 <img src="assets/images/cta-chat-icon.png" />
+                                 <img src="/assets/images/cta-chat-icon.png" />
                              </div>
                              <div class="cta-info">
                                  <span>Click Here to</span>
@@ -248,84 +251,7 @@
         </div>
     </section>--%>
 
-    <section class="testimonials-sec space-p-tb section-bg-dark">
-        <div class="container">           
-            <div class="row">
-                <div class="col-md-6">
-                   <h3 class="main-heding mb-3 mb-md-5 text-white">Testimonials</h3>
-                    <div class="reviewer-slider">
-                        <div class="rwr-slide">
-                              <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="/assets/images/tm-image-2.png" />
-                                    <span class="quote-img">"</span>
-                              </div>
-                              <div class="rwr-info">
-                                  <h5 class="mb-0">John Smith </h5>
-                                  <span class="desig">From TechX Solutions</span>
-                              </div>
-                        </div>
-                        <div class="rwr-slide">
-                              <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="/assets/images/tm-image-1.png" />
-                                    <span class="quote-img">"</span>
-                              </div>
-                              <div class="rwr-info">
-                                  <h5 class="mb-0">Sarah Johnson </h5>
-                                  <span class="desig">From FashionHouse Inc.</span>
-                              </div>
-                        </div>
-                        <div class="rwr-slide">
-                              <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="/assets/images/tm-image-4.png" />
-                                    <span class="quote-img">"</span>
-                              </div>
-                              <div class="rwr-info">
-                                  <h5 class="mb-0">Michael Anderson </h5>
-                                  <span class="desig">From FoodLinx Co.</span>
-                              </div>
-                        </div>
-                        <div class="rwr-slide">
-                              <div class="rwr-image-holder">
-                                    <img class="tm-img img-fluid" src="/assets/images/tm-image-3.png" />
-                                    <span class="quote-img">"</span>
-                              </div>
-                              <div class="rwr-info">
-                                  <h5 class="mb-0">Emily Roberts</h5>
-                                  <span class="desig">From GreenTech Solutions Ltd.</span>
-                              </div>
-                        </div>                        
+   
+       <!--  #include virtual ="/includes/testimonials-slider.aspx" --> 
 
-                    </div>                      
-                </div>
-                <div class="col-md-6">
-                    <div class="review-slider">
-                        <div class="review-slide">
-                            <div class="tm-cont">
-                                <img class="tm-quotes-icon mb-3" src="/assets/images/quotes-icon.png" />                                
-                                "Working with Bridgewater has been a game-changer for our company. Their financial management services have not only streamlined our budgeting and forecasting processes but also provided us with valuable insights for strategic decision-making."
-                             </div>  
-                        </div>
-                        <div class="review-slide">
-                            <div class="tm-cont">
-                                <img class="tm-quotes-icon mb-3" src="/assets/images/quotes-icon.png" />                                
-                                    "Bridgewater has been an invaluable partner in our financial journey. Their team's expertise in business financial management has helped us navigate through challenging times and capitalize on growth opportunities. We are grateful for their dedication and unwavering commitment to our success."
-                             </div> 
-                        </div>
-                        <div class="review-slide">
-                            <div class="tm-cont">
-                                <img class="tm-quotes-icon mb-3" src="/assets/images/quotes-icon.png" />                                
-                             "As a rapidly expanding startup, having Bridgewater as our financial management partner has been a blessing. Their cultural awareness and understanding of our business needs have been exceptional. From financial planning to compliance, their team has guided us every step of the way, ensuring we stay on track for success."
-                              </div> 
-                        </div>
-                        <div class="review-slide">
-                            <div class="tm-cont">
-                                <img class="tm-quotes-icon mb-3" src="/assets/images/quotes-icon.png" />                                
-                                "Bridgewater 's commitment to quality and professionalism is unmatched. Their team's in-depth knowledge of financial management, coupled with their AFM license and memberships with NBA and SRA, instills confidence and trust in their capabilities. Their tailored strategies have exceeded our expectations, and we sincerely thank them for their invaluable contributions to our company's growth and stability."
-                             </div> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 </asp:Content>

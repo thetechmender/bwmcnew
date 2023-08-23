@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
-    <section class="spacing-tbp thank">
+    <section class="thank-sec">
         <div class="container">
             <div class="row text-center">
                 <h2 class=""> Thankyou </h2>
