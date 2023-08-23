@@ -98,7 +98,7 @@
         <div class="container text-center">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
-                    <h3 class="cta-title">MIssion</h3>
+                    <h3 class="cta-title">Mission</h3>
                     <span class="cta-mini-title">What are you waiting for?</span>
                     <p>The business world is changing at lightning speed. To succeed, you need an agile partner to help lead you forward — not by taking the well-worn path, but by exploring every opportunity to prepare you for tomorrow.</p>
                     

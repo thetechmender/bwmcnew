@@ -85,10 +85,10 @@
                     <div class="col-md-2">
                         <h6>Quick Links</h6>
                         <ul class="foo-menu">
-                            <li><a href="#">Blog Details</a></li>                            
-                            <li><a href="#">Case Details</a></li>
-                            <li><a href="#">Pricing Plans</a></li>
-                            <li><a href="#">Team Details </a></li>                      
+                         <li><a href="/news">Blog Details</a></li>                            
+                         <li><a href="/internal-audit">Internal Audit</a></li>
+                         <li><a href="/accounting-bookkeeping">Accounting & Bookkeeping</a></li>
+                         <li><a href="/audit-assurance">Audit & Assurance</a></li>              
                         </ul>
                     </div>
                     <div class="col-md-2">
