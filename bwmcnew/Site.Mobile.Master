@@ -48,9 +48,13 @@
                        
                       
                          <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="/services" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                         Services
                       </a>
+                   <%--   <a class="nav-link dropdown-toggle" href="/services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                      </a>--%>
+
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                          <li><a class="dropdown-item" href="/internal-audit">Internal Audit</a></li>
                         <li><a class="dropdown-item" href="/accounting-bookkeeping">Accounting & Bookkeeping</a></li>
@@ -58,7 +62,7 @@
                        <li><a class="dropdown-item" href="/management-accounting">Management Accounting</a></li>
                       </ul>
                     </li> 
-                    <li class="nav-item"><a class="nav-link" href="/news">Blog</a></li>
+                   <%-- <li class="nav-item"><a class="nav-link" href="/news">Blog</a></li>--%>
                     <li class="nav-item"><a class="nav-link btn-contact" href="/contact">Contact</a></li>
                 
                     </ul>
@@ -82,21 +86,21 @@
 
                         <img class="img-fluid payment-cards-img" src="/assets/images/payment-cards.jpg" alt="">
                     </div>
-                    <div class="col-md-2">
+                     <div class="col-md-2">
                         <h6>Quick Links</h6>
                         <ul class="foo-menu">
-                            <li><a href="#">Blog Details</a></li>                            
-                            <li><a href="#">Case Details</a></li>
-                            <li><a href="#">Pricing Plans</a></li>
-                            <li><a href="#">Team Details </a></li>                      
+                        <%-- <li><a href="/news">Blog Details</a></li>  --%>                          
+                                <li><a href="/about">About Us</a></li>
+<%--                            <li><a href="#">Contact Us</a></li>--%>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="col-md-2">
-                        <ul class="foo-menu mt-0 mt-md-5">
-                            <li><a href="#">Service Details</a></li>
-                            <li><a href="/about">About Us</a></li>
-<%--                            <li><a href="#">Contact Us</a></li>--%>
-                            <li><a href="/contact">Contact</a></li>
+                       <a href="/services"> <h6>Services</h6></a>
+                        <ul class="foo-menu mt-0 mt-md-2">
+                         <li><a href="/internal-audit">Internal Audit</a></li>
+                         <li><a href="/accounting-bookkeeping">Accounting & Bookkeeping</a></li>
+                         <li><a href="/audit-assurance">Audit & Assurance</a></li>      
                         </ul>
                     </div>
                     <div class="col-md-5">

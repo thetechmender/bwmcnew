@@ -33,9 +33,9 @@
                         Our dedicated team of internal audit professionals goes beyond routine checks to uncover insights that drive operational efficiency, 
                         risk mitigation, and business growth. With a focus on accuracy and integrity, we empower you to navigate the complex business landscape
                         with confidence and foresight.</p>
-                     
                     <p>Choosing Bridgewater means choosing a partner that is committed to enhancing your business's internal controls and processes. Our experts are skilled in identifying areas for improvement, optimizing operational workflows, and ensuring regulatory compliance. With our internal audit services, you're not just preventing issues – you're proactively shaping a resilient and prosperous future for your organization.</p>
-                </div>
+                                  <a class="ctm-pri-btn mt-3" href="/contact"> Reach out to us</a>
+               </div>
             </div>
         </div>
     </section>
@@ -86,7 +86,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Compliance Assurance</h6>
+                            <h6>Compliance<br /> Assurance</h6>
                             <p>Staying compliant with regulations is non-negotiable. Our internal audit services ensure that your business processes adhere to relevant regulations, minimizing legal and reputational risks.</p> 
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Performance Evaluation</h6>
+                            <h6>Performance <br />Evaluation</h6>
                             <p>We assess the performance of various business areas to identify strengths and areas for improvement. Our insights guide you in making strategic decisions that drive growth and operational excellence.</p>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Reporting and Insights</h6>
+                            <h6>Reporting and <br />Insights</h6>
                             <p>Our detailed reports provide you with actionable insights derived from the audit process. These insights empower you to make informed decisions that align with your business goals and objectives.</p>
                         </div>
                     </div>

@@ -20,7 +20,7 @@
         </div>
         <div class="logos-holder-container">
             <div class="row align-items-center">
-                <div class="col-md-6 text-md-start">
+                <div class="col-md-6 text-md-start mb-3">
                     <img class="img-fluid" src="/assets/images/trusted-icons.png"/>
                 </div>
                 <div class="col-md-6 text-md-end">
@@ -34,13 +34,38 @@
     <section class="clients-logos-sec">
         <div class="container">
           <div class="row align-items-center">
-              <div class="col-lg-3 col-md-3">              
+              <div class="col-lg-3 col-md-4">              
                 <h3 class="main-heding">Our Clients</h3>
                 <p class="font-dark-color mb-4">A trusted financial management company in Dubai and beyond</p>
               </div>
-              <div class="col-lg-9 col-md-9">
+              <div class="col-lg-9 col-md-8">
                    <div class="clients-logos">
-                       <div class="mb-3">
+                       <div class="item">
+                           <div class="mb-3">
+                           <img src="/assets/images/client-logo-1.png" />
+                       </div>
+                       </div>
+                        <div class="item">
+                            <div class="mb-3">
+                           <img src="/assets/images/client-logo-2.png" />
+                       </div>
+                        </div>
+                        <div class="item">
+                            <div class="mb-3">
+                           <img src="/assets/images/client-logo-3.png" />
+                       </div>
+                        </div>
+                        <div class="item">
+                            <div class="mb-3">
+                           <img src="/assets/images/client-logo-4.png" />
+                       </div>
+                        </div>
+                        <div class="item">
+                            <div class="mb-3">
+                           <img src="/assets/images/client-logo-1.png" />
+                       </div>
+                        </div>
+                      <%-- <div class="mb-3">
                            <img src="/assets/images/client-logo-1.png" />
                        </div>
                         <div class="mb-3">
@@ -54,7 +79,7 @@
                        </div>
                        <div class="mb-3">
                            <img src="/assets/images/client-logo-5.png" />
-                       </div>                        
+                       </div> --%>                       
                    </div>
               </div>
           </div>
@@ -64,14 +89,14 @@
     <section id="about-section" class="about-section space-m-b">
         <div class="container">
           <div class="row align-items-center">
-              <div class="col-md-6">
+              <div class="col-md-6 mb-3">
                    <img class="img-fluid" src="/assets/images/about-image.jpg" />
               </div>
               <div class="col-md-6">
                     <h3 class="main-heding">About Us</h3>
                     <p>Welcome to Bridgewater . We are a business financial management company that assists businesses of every size to manage their cash flows and finances effectively. We have a dedicated team for every aspect of business and an expert support team that is available 24/7 if your company faces any hurdles regarding your finances</p>
                     <p>We are not only limited to a specific place, instead, we cater businesses all over the globe. We have our roots grounded to every major city of the world, including the USA and the business hub, UAE. Furthermore, Bridgewater is known for its accuracy and dedication. We understand how important it is to manage your finances efficiently in order to grab new opportunities and this is why we offer outstanding services to our clients. Regardless of your business size, we welcome everyone to the family and treat everyone with the same respect and dignity.</p> 
-                  <a class="ctm-pri-btn mt-3" href="#"> View Our Capablities</a>
+                  <a class="ctm-pri-btn mt-3" href="/contact"> Reach out to us</a>
               </div>
           </div>
         </div>
@@ -95,24 +120,31 @@
             <div class="row mt-md-5">
                 <div class="col-lg-4 col-md-4">
                     <div class="srv-image-box shine-overlay">
-                        <img class="img-fluid" src="/assets/images/serv-img-1.jpg" />
+                        <a href="/internal-audit"><img class="img-fluid" src="/assets/images/serv-img-1.jpg" /></a>
                         <a href="/internal-audit" class="serv-box-title">Internal Audit</a>
                          <div class="shine"></div>
+                              
                     </div>
+                        
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="srv-image-box shine-overlay">
-                        <img class="img-fluid" src="/assets/images/serv-img-2.jpg" />
+                        <a href="/accounting-bookkeeping"><img class="img-fluid" src="/assets/images/serv-img-2.jpg" /></a>
                        <a href="/accounting-bookkeeping"  class="serv-box-title">Accounting & Bookkeeping</a>
                          <div class="shine"></div>
+                        
                     </div>
+                   
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <div class="srv-image-box shine-overlay">
-                        <img class="img-fluid" src="/assets/images/serv-img-3.jpg" />
+                          <a href="/audit-assurance">
+                        <img class="img-fluid" src="/assets/images/serv-img-3.jpg" />  </a>
                        <a href="/audit-assurance"  class="serv-box-title">Audit & Assurance</a>
                          <div class="shine"></div>
+                       
                     </div>
+                        
                 </div>
             </div>
         </div>
@@ -217,7 +249,7 @@
                          </div>
                        
                      </div>
-                     <a class="cta-btn-main" href="#">Book Your Consultation</a>
+                     <a class="cta-btn-main" href="/contact">Book Your Consultation</a>
                 </div>
             </div>
         </div>

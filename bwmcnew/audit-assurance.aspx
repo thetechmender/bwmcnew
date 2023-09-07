@@ -35,6 +35,7 @@
 
                     <p>When you choose Bridgewater, you're choosing a partner that goes beyond the numbers. Our dedicated team of auditors leverages their expertise to not only validate your financial data but also to offer strategic guidance. With us, audits become opportunities to fine-tune your operations, mitigate risks, 
                         and enhance your financial standing. Embrace the future with assurance, powered by Bridgewater's unwavering commitment to your success.</p>
+                                  <a class="ctm-pri-btn mt-3" href="/contact"> Reach out to us</a>
                 </div>
             </div>
         </div>
@@ -63,7 +64,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Financial Statement Audits</h6>
+                            <h6>Financial Statement<br/> Audits</h6>
                             <p>Our financial statement audits go beyond the surface, meticulously examining your financial records to ensure accuracy, reliability, and compliance. With our experienced auditors, you can be confident that your financial statements provide a true and fair reflection of your business's financial health.</p> 
                         </div>
                     </div>
@@ -75,7 +76,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Internal Control Evaluation</h6>
+                            <h6>Internal Control <br/>Evaluation</h6>
                             <p>We understand the significance of strong internal controls in safeguarding your assets and ensuring operational efficiency. Our internal control evaluation services help identify gaps and vulnerabilities, allowing you to take proactive measures to mitigate risks and enhance your business processes.</p>
                          </div>
                     </div>
@@ -86,7 +87,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Risk Assessment</h6>
+                            <h6>Risk <br/>Assessment</h6>
                             <p>Navigating today's dynamic business landscape requires a keen awareness of potential risks. Our risk assessment services help you identify and evaluate financial, operational, and compliance risks that could impact your business's stability and growth. By understanding these risks, you can make informed decisions to secure your future.</p>
                         </div>
                     </div>
@@ -97,7 +98,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Compliance Audits</h6>
+                            <h6>Compliance<br/> Audits</h6>
                             <p>Staying compliant with industry-specific regulations is vital for maintaining your business's reputation and avoiding penalties. Our compliance audits thoroughly review your operations to ensure that you are meeting all relevant regulations, giving you the peace of mind that your business is on the right track.</p>
                          </div>
                     </div>
@@ -109,7 +110,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Due Diligence</h6>
+                            <h6>Due<br/> Diligence</h6>
                             <p>In the fast-paced world of mergers, acquisitions, and investments, due diligence is crucial. Our due diligence services provide you with a comprehensive analysis of financial data, helping you make well-informed decisions. We uncover potential opportunities and risks, enabling you to negotiate from a position of strength.</p>
                          </div>
                     </div>
@@ -120,7 +121,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Performance Audits</h6>
+                            <h6>Performance<br/> Audits</h6>
                         <p>Continuous improvement is key to sustained success. Our performance audits delve into your processes and systems, evaluating their effectiveness and identifying areas for enhancement. By partnering with us, you can optimize your operations, streamline processes, and enhance overall performance.</p>
                          </div>
                     </div>

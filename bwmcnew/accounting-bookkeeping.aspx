@@ -33,7 +33,7 @@
                         Our team of seasoned professionals is dedicated to helping your business thrive by ensuring your financial records are accurate, up-to-date, and well-managed.
                         With a focus on precision and efficiency, we empower you to make informed decisions and navigate the complexities of financial management with confidence.</p>
                    <p>Choose Bridgewater for accounting and bookkeeping solutions that go beyond numbers. Our commitment to detail and comprehensive support allows you to streamline your financial processes, optimize resources, and achieve sustainable growth. With personalized services designed to meet your unique needs, we're your reliable partner in building a financially resilient future for your business.</p>  
-                   
+                    <a class="ctm-pri-btn mt-3" href="/contact"> Reach out to us</a>
                 </div>
             </div>
         </div>
@@ -48,7 +48,7 @@
                     <img class="img-fluid mb-4" src="/assets/images/management-img2.png" />
                 </div>
                 <div class="col-lg-7 col-md-7 text-end">
-                    <h3 class="main-heding">Accounting and Bookkeeping Services:</h3>
+                    <h3 class="main-heding">Accounting and Bookkeeping Services</h3>
                     <p>Our Accounting and Bookkeeping services are the cornerstone of effective financial management. We understand that accurate, organized financial data is essential for making informed decisions and achieving your business goals.
                         Our dedicated team ensures that your financial records are not only accurate but also translated into actionable insights that drive growth.</p>
                     <p><strong>Our accounting and bookkeeping services include</strong></p>
@@ -63,7 +63,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>General Ledger Management</h6>
+                            <h6>General Ledger<br /> Management</h6>
                             <p>A meticulously managed general ledger forms the bedrock of accurate financial reporting. Our experts ensure that every financial transaction is appropriately categorized and recorded, offering you a comprehensive overview of your financial standing. By maintaining a precise ledger, we empower you to confidently assess your business's financial health and make well-informed decisions.</p>
                          </div>
                     </div>
@@ -86,7 +86,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Bank Reconciliation</h6>
+                            <h6>Bank<br /> Reconciliation</h6>
                             <p>Aligning your bank statements with your financial records is pivotal to maintaining accuracy. Our bank reconciliation services ensure that no transaction goes unnoticed, preventing discrepancies and errors. With our meticulous approach, you can trust that your financial data is up-to-date, reflecting the actual financial position of your business.</p>
                             </div>
                     </div>
@@ -97,7 +97,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Financial Reporting</h6>
+                            <h6>Financial<br /> Reporting</h6>
                             <p>Our comprehensive financial reports offer more than just numbers – they provide actionable insights. We tailor these reports to your specific needs, allowing you to assess profitability, identify trends, and strategize for growth. With our insights at your disposal, you're empowered to make decisions that propel your business forward.</p>
                          </div>
                     </div>
@@ -120,7 +120,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Payroll Services</h6>
+                            <h6>Payroll <br />Services</h6>
                         <p>Managing payroll demands accuracy and timeliness. Our payroll services take the stress out of this crucial task, ensuring your employees are paid accurately and on time. We handle tax withholdings, compliance, and reporting, allowing you to focus on cultivating a motivated and engaged workforce.</p>
                         </div>
                     </div>

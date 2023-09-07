@@ -38,7 +38,7 @@
                         </div>
                          <div class="contact-text">
                              <span>Phone</span>
-                             <a href="tel:">+971 4 528 4111</a>
+                             <a href="tel:">1-833-207-5508</a>
                              <p>Sun-Thu 9am-6pm</p>
                          </div>
                     </div>

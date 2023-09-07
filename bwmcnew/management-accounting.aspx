@@ -35,7 +35,7 @@
                         With a focus on strategic decision-making, we empower you to steer your business toward success by aligning financial goals with operational strategies.</p>
                     <p>Choosing Bridgewater means choosing a partner who understands the integral role of management accounting in shaping your business's trajectory. Our experts not only crunch numbers but also interpret them in the context of your unique business environment. 
                         With our management accounting services, you gain a competitive edge as we work with you to optimize resources, mitigate risks, and drive profitability.</p>
-
+                                  <a class="ctm-pri-btn mt-3" href="/contact"> Reach out to us</a>
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Budgeting and Forecasting</h6>
+                            <h6>Budgeting and <br/> Forecasting</h6>
                             <p>We assist you in creating realistic budgets and accurate forecasts that guide your financial decisions. Our detailed analysis helps you align your strategies with financial goals and anticipate future outcomes.</p>
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Cost Analysis and Control</h6>
+                            <h6>Cost Analysis and<br/> Control</h6>
                             <p>Understanding costs is crucial for profitability. We analyze your cost structure, identify cost-saving opportunities, and implement strategies to control expenses without compromising quality.</p>
                          </div>
                     </div>
@@ -87,7 +87,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Performance Measurement</h6>
+                            <h6>Performance<br/> Measurement</h6>
                             <p>Our experts develop key performance indicators (KPIs) that reflect your business's health and progress. We regularly track and assess these indicators, providing insights to refine your operational strategies.</p>  
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Variance Analysis</h6>
+                            <h6>Variance<br/> Analysis</h6>
                             <p>We analyze the differences between actual and expected performance to identify areas that require attention. Our variance analysis guides you in adapting your strategies to achieve desired outcomes.</p> 
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Strategic Decision Support</h6>
+                            <h6>Strategic Decision<br/> Support</h6>
                             <p>We provide insights that facilitate strategic decision-making. Our reports and analysis offer a clear picture of your financial situation, empowering you to make choices that align with your long-term objectives.</p>
                           </div>
                     </div>
@@ -121,7 +121,7 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Business Planning and Analysis</h6>
+                            <h6>Business Planning<br/> and Analysis</h6>
                             <p>Our comprehensive business planning services help you chart a course for growth. We analyze market trends, competitor performance, and internal capabilities to inform your strategic plans.</p>
                          </div>
                     </div>
