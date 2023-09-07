@@ -252,6 +252,6 @@
     </section>--%>
 
    
-       <!--  #include virtual ="/includes/testimonials-slider.aspx" --> 
+       <!--  //#include virtual ="/includes/testimonials-slider.aspx" --> 
 
 </asp:Content>

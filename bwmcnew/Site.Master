@@ -56,6 +56,7 @@
                         <li><a class="dropdown-item" href="/internal-audit">Internal Audit</a></li>
                         <li><a class="dropdown-item" href="/accounting-bookkeeping">Accounting & Bookkeeping</a></li>
                         <li><a class="dropdown-item" href="/audit-assurance">Audit & Assurance</a></li>
+                        <li><a class="dropdown-item" href="/management-accounting">Management Accounting</a></li>
                       </ul>
                     </li> 
                     <li class="nav-item"><a class="nav-link" href="/news">Blog</a></li>

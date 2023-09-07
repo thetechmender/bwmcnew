@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="accounting-bookkeeping.aspx.cs" Inherits="bwmcnew.accounting_bookkeeping" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeaderContent" runat="server">
-      <title>Accounting & Bookkeeping <%=ConfigurationManager.AppSettings["brandName"] %></title>
+  <title>Keep your accounts precise and easy <%=ConfigurationManager.AppSettings["brandName"] %></title>
     <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="description" content="Accounting and bookkeeping is not a thing that can be put aside and forgotten. It needs to be updated regularly and we are here to help you out">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -12,9 +12,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-10">
                 <h2 class="inner-title">Accounting & Bookkeeping</h2>
-                   <p>We are a top ten advisory tax and assurance firm dedicated to customized business solutions that generate and sustain growth. We lead with purpose, and we walk with you every step along your journey.</p> 
-                </div>
-               
+                   <p>Elevate Financial Precision with Bridgewater's Expert Accounting and Bookkeeping Services—your Trusted Partner for Accurate and Streamlined Financial Management.</p> 
+                 </div>
             </div>
         </div>
       </div>
@@ -29,13 +28,12 @@
                      <img class="img-fluid" src="/assets/images/management-img1.png" />
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <h3 class="main-heding mb-4">Make informed decisions on your company's accounts</h3>
-                    <p>Are you finding that you don't have the time or the energy to review your company's financial and non-financial information                         and then translate that information every month to help you make better-informed decisions? Do you have too much on your plate                        to deal with analyzing and interpreting your financial and non-financial data every month? Are you looking to partner with a reliable                        and professional management accounting service provider that can provide you with the insights you need every month? If so, you can benefit                        significantly from our management accounting services.                    </p>    
-                     
-                    <p>Flatworld Solutions (FWS) is a leading management accounting company and has worked with numerous clients to help them drill down into their
-                        financial and non-financial data to draw out patterns and trends to help them make sense of all that data. We will help you answer questions 
-                        like where your profits are going, what is driving sales, what is the productivity of your staff, and how your business is performing as compared to your competitors.
-                        With our management accounting solutions, you can get the insights you need to make the best-informed decisions every month.</p>
+                    <h3 class="main-heding mb-4">Keeping the path of accounts clear for every firm</h3>
+                    <p>At Bridgewater, we believe that solid financial management begins with meticulous accounting and organized bookkeeping.
+                        Our team of seasoned professionals is dedicated to helping your business thrive by ensuring your financial records are accurate, up-to-date, and well-managed.
+                        With a focus on precision and efficiency, we empower you to make informed decisions and navigate the complexities of financial management with confidence.</p>
+                   <p>Choose Bridgewater for accounting and bookkeeping solutions that go beyond numbers. Our commitment to detail and comprehensive support allows you to streamline your financial processes, optimize resources, and achieve sustainable growth. With personalized services designed to meet your unique needs, we're your reliable partner in building a financially resilient future for your business.</p>  
+                   
                 </div>
             </div>
         </div>
@@ -50,9 +48,10 @@
                     <img class="img-fluid mb-4" src="/assets/images/management-img2.png" />
                 </div>
                 <div class="col-lg-7 col-md-7 text-end">
-                    <h3 class="main-heding">Our Management Accounting Services</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stanLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t when an unknown print to mype specimen book. It has survived not only five centuriesmy an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                   <p><strong>Our management accounting services includ</strong></p>
+                    <h3 class="main-heding">Accounting and Bookkeeping Services:</h3>
+                    <p>Our Accounting and Bookkeeping services are the cornerstone of effective financial management. We understand that accurate, organized financial data is essential for making informed decisions and achieving your business goals.
+                        Our dedicated team ensures that your financial records are not only accurate but also translated into actionable insights that drive growth.</p>
+                    <p><strong>Our accounting and bookkeeping services include</strong></p>
                 </div>
             </div>
 
@@ -64,9 +63,9 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Preparing End of Month Reports</h6>
-                            <p>We will process, prepare, and deliver monthly management accounting reports that will feature profit and loss information and business performance metrics. We will also deliver an actionable balance sheet.</p>
-                        </div>
+                            <h6>General Ledger Management</h6>
+                            <p>A meticulously managed general ledger forms the bedrock of accurate financial reporting. Our experts ensure that every financial transaction is appropriately categorized and recorded, offering you a comprehensive overview of your financial standing. By maintaining a precise ledger, we empower you to confidently assess your business's financial health and make well-informed decisions.</p>
+                         </div>
                     </div>
 
                 </div>
@@ -76,8 +75,8 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Budgeting and Forecasting Services</h6>
-                            <p>If you are having problems with creating accurate budgets and forecasting your finances, we can help. We will create an annual budget and help you set both long-term and short-term goals. We will then report monthly on whether your goals are being met</p>
+                            <h6>Accounts Payable and Receivable</h6>
+                            <p>Effective cash flow management is crucial for business sustainability. Our accounts payable and receivable services take the hassle out of invoicing, payments, and receivables. By streamlining these processes, we optimize cash flow, enhance vendor relationships, and keep your financial operations running seamlessly.</p>
                           </div>
                     </div>
                 </div>
@@ -87,9 +86,9 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Payroll Solutions</h6>
-                            <p>We will work closely with you to process your weekly pay runs, your monthly IAS, and lodge your superannuation. We will also provide an end of year summary of your payroll.</p>
-                          </div>
+                            <h6>Bank Reconciliation</h6>
+                            <p>Aligning your bank statements with your financial records is pivotal to maintaining accuracy. Our bank reconciliation services ensure that no transaction goes unnoticed, preventing discrepancies and errors. With our meticulous approach, you can trust that your financial data is up-to-date, reflecting the actual financial position of your business.</p>
+                            </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4">
@@ -98,8 +97,8 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Bank Reconciliation<br /> Services</h6>
-                             <p>As a leading provider of management accounting solutions, we will process and evaluate your bank reconciliations for each of your business accounts. We will also lodge your business activity statement (BAS).</p>
+                            <h6>Financial Reporting</h6>
+                            <p>Our comprehensive financial reports offer more than just numbers – they provide actionable insights. We tailor these reports to your specific needs, allowing you to assess profitability, identify trends, and strategize for growth. With our insights at your disposal, you're empowered to make decisions that propel your business forward.</p>
                          </div>
                     </div>
 
@@ -110,9 +109,9 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Financial Analysis<br />  Services</h6>
-                            <p>We are a leading management accounting services company and will use cloud-based tools to present how your business is performing with respect to key performance indicators and growth targets.</p>
-                          </div>
+                            <h6>Tax Preparation and Compliance</h6>
+                            <p>Navigating the complex landscape of taxes is made simpler with our expertise. Our tax preparation and compliance services ensure that you meet all regulatory requirements while minimizing tax liabilities. We stay updated with ever-changing tax laws, providing you with the peace of mind that your tax matters are in capable hands.</p>
+                            </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4">
@@ -121,8 +120,8 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Monthly Review<br />  Meetings</h6>
-                            <p>We will meet with you every month to present you with the actionable insights you need to make better-informed decisions. We will identify areas of concern and present strategies for improvement.</p>  
+                            <h6>Payroll Services</h6>
+                        <p>Managing payroll demands accuracy and timeliness. Our payroll services take the stress out of this crucial task, ensuring your employees are paid accurately and on time. We handle tax withholdings, compliance, and reporting, allowing you to focus on cultivating a motivated and engaged workforce.</p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +204,7 @@
 
 
   
-       <!--  #include virtual ="/includes/testimonials-slider.aspx" --> 
+       <!--  //#include virtual ="/includes/testimonials-slider.aspx" --> 
 
 
 </asp:Content>

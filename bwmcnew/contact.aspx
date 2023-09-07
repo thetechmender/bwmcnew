@@ -11,7 +11,7 @@
         <div class="inner-banner-content text-center">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-10">
-                <h2 class="inner-title">Contact</h2>
+                <h2 class="inner-title">Get in touch now</h2>
                 </div>
                
             </div>
@@ -26,8 +26,8 @@
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-9 col-md-10 text-center">
-                      <h3 class="main-heding">Get in touch</h3>  
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the </p>
+                      <h3 class="main-heding">We are just a click away!</h3>  
+                    <p>Are you managing all your finances yourself? Wish to ease the burden off your shoulders? Just get in touch with us and one of our experts will guide you to the path of relaxation</p>
                 </div>
             </div>
             <div class="row justify-content-center mt-4">

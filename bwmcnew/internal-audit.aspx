@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="internal-audit.aspx.cs" Inherits="bwmcnew.internal_audit" %>
+﻿<%@ Page Title="Internal Audit to examine the core of your company" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="internal-audit.aspx.cs" Inherits="bwmcnew.internal_audit" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeaderContent" runat="server">
-     <title>Internal Audit <%=ConfigurationManager.AppSettings["brandName"] %></title>
+     <title>Internal Audit to examine the core of your company <%=ConfigurationManager.AppSettings["brandName"] %></title>
     <meta name="keywords" content="">
-    <meta name="description" content="">
+    <meta name="description" content="Internal audits are the best source to identify a company's extra expenses and determine the steps to avoid the expenditures. Contact us now to get your company audited">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -12,9 +12,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-10">
                 <h2 class="inner-title">Internal Audit</h2>
-                   <p>We are a top ten advisory tax and assurance firm dedicated to customized business solutions that generate and sustain growth. We lead with purpose, and we walk with you every step along your journey.</p> 
+                   <p>Unveiling Insights through Comprehensive Internal Audits. Trust Bridgewater for Expertise in Ensuring Your Business's Operational Excellence.</p> 
                 </div>
-               
             </div>
         </div>
       </div>
@@ -29,13 +28,13 @@
                      <img class="img-fluid" src="/assets/images/management-img1.png" />
                 </div>
                 <div class="col-lg-6 col-md-6">
-                    <h3 class="main-heding mb-4">Make informed decisions on your company's accounts</h3>
-                    <p>Are you finding that you don't have the time or the energy to review your company's financial and non-financial information                         and then translate that information every month to help you make better-informed decisions? Do you have too much on your plate                        to deal with analyzing and interpreting your financial and non-financial data every month? Are you looking to partner with a reliable                        and professional management accounting service provider that can provide you with the insights you need every month? If so, you can benefit                        significantly from our management accounting services.                    </p>    
+                    <h3 class="main-heding mb-4">It’s time to save your company expenses.</h3>
+                    <p>At Bridgewater, we understand that a well-executed internal audit is not just a compliance requirement; it's a strategic opportunity. 
+                        Our dedicated team of internal audit professionals goes beyond routine checks to uncover insights that drive operational efficiency, 
+                        risk mitigation, and business growth. With a focus on accuracy and integrity, we empower you to navigate the complex business landscape
+                        with confidence and foresight.</p>
                      
-                    <p>Flatworld Solutions (FWS) is a leading management accounting company and has worked with numerous clients to help them drill down into their
-                        financial and non-financial data to draw out patterns and trends to help them make sense of all that data. We will help you answer questions 
-                        like where your profits are going, what is driving sales, what is the productivity of your staff, and how your business is performing as compared to your competitors.
-                        With our management accounting solutions, you can get the insights you need to make the best-informed decisions every month.</p>
+                    <p>Choosing Bridgewater means choosing a partner that is committed to enhancing your business's internal controls and processes. Our experts are skilled in identifying areas for improvement, optimizing operational workflows, and ensuring regulatory compliance. With our internal audit services, you're not just preventing issues – you're proactively shaping a resilient and prosperous future for your organization.</p>
                 </div>
             </div>
         </div>
@@ -50,9 +49,9 @@
                     <img class="img-fluid mb-4" src="/assets/images/management-img2.png" />
                 </div>
                 <div class="col-lg-7 col-md-7 text-end">
-                    <h3 class="main-heding">Our Management Accounting Services</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's stanLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t when an unknown print to mype specimen book. It has survived not only five centuriesmy an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                   <p><strong>Our management accounting services includ</strong></p>
+                    <h3 class="main-heding">Internal Audit Services</h3>
+                    <p>Our Internal Audit services are built on the premise that every organization has untapped potential for improvement. We partner with you to analyze processes, evaluate internal controls, and identify risks, all while ensuring compliance with regulations. Our aim is to transform internal audits from mere compliance tasks into opportunities for strategic growth.</p>
+                    <p><strong>Our internal audit services include</strong></p>
                 </div>
             </div>
 
@@ -64,8 +63,8 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Preparing End of Month Reports</h6>
-                            <p>We will process, prepare, and deliver monthly management accounting reports that will feature profit and loss information and business performance metrics. We will also deliver an actionable balance sheet.</p>
+                            <h6>Process Analysis and Optimization</h6>
+                            <p>We examine your operational workflows to identify inefficiencies and bottlenecks. Our process optimization recommendations are designed to streamline your operations, enhance productivity, and reduce </p>
                         </div>
                     </div>
 
@@ -76,8 +75,8 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Budgeting and Forecasting Services</h6>
-                            <p>If you are having problems with creating accurate budgets and forecasting your finances, we can help. We will create an annual budget and help you set both long-term and short-term goals. We will then report monthly on whether your goals are being met</p>
+                            <h6>Risk Identification and Mitigation</h6>
+                            <p>Understanding and managing risks is vital for business resilience. Our experts identify potential risks, assess their impact, and provide recommendations to mitigate them, safeguarding your business's continuity.</p>
                           </div>
                     </div>
                 </div>
@@ -87,9 +86,9 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Payroll Solutions</h6>
-                            <p>We will work closely with you to process your weekly pay runs, your monthly IAS, and lodge your superannuation. We will also provide an end of year summary of your payroll.</p>
-                          </div>
+                            <h6>Compliance Assurance</h6>
+                            <p>Staying compliant with regulations is non-negotiable. Our internal audit services ensure that your business processes adhere to relevant regulations, minimizing legal and reputational risks.</p> 
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4">
@@ -98,9 +97,9 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Bank Reconciliation<br /> Services</h6>
-                             <p>As a leading provider of management accounting solutions, we will process and evaluate your bank reconciliations for each of your business accounts. We will also lodge your business activity statement (BAS).</p>
-                         </div>
+                            <h6>Fraud Detection and Prevention</h6>
+                            <p>Fraud can be detrimental to any business. Our experts employ advanced techniques to detect irregularities and prevent fraud, protecting your assets and maintaining stakeholder trust.</p>
+                        </div>
                     </div>
 
                 </div>
@@ -110,9 +109,9 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Financial Analysis<br />  Services</h6>
-                            <p>We are a leading management accounting services company and will use cloud-based tools to present how your business is performing with respect to key performance indicators and growth targets.</p>
-                          </div>
+                            <h6>Performance Evaluation</h6>
+                            <p>We assess the performance of various business areas to identify strengths and areas for improvement. Our insights guide you in making strategic decisions that drive growth and operational excellence.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4">
@@ -121,8 +120,8 @@
                             <i class="fas fa-check-circle"></i>
                         </div>
                         <div class="manage-text">
-                            <h6>Monthly Review<br />  Meetings</h6>
-                            <p>We will meet with you every month to present you with the actionable insights you need to make better-informed decisions. We will identify areas of concern and present strategies for improvement.</p>  
+                            <h6>Reporting and Insights</h6>
+                            <p>Our detailed reports provide you with actionable insights derived from the audit process. These insights empower you to make informed decisions that align with your business goals and objectives.</p>
                         </div>
                     </div>
                 </div>
@@ -203,9 +202,10 @@
         </div>
     </section>
 
-
+    
+       <!--  //#include virtual ="/includes/testimonials-slider.aspx" --> 
   
-    <section class="testimonials-sec space-p-tb section-bg-dark">
+  <%--  <section class="testimonials-sec space-p-tb section-bg-dark">
         <div class="container">           
             <div class="row">
                 <div class="col-md-6">
@@ -284,7 +284,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
 
 
