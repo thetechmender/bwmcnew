@@ -90,7 +90,7 @@
         <div class="container">
           <div class="row align-items-center">
               <div class="col-md-6 mb-3">
-                   <img class="img-fluid" src="/assets/images/about-image.jpg" />
+                   <img class="img-fluid" src="/assets/images/home-page-1.jpg" />
               </div>
               <div class="col-md-6">
                     <h3 class="main-heding">About Us</h3>
@@ -106,7 +106,7 @@
         <div class="container">
           <div class="row align-items-center">
               <div class="col-md-4 mb-4">
-                   <img class="img-fluid" src="/assets/images/our-services-img-1.png" />
+                   <img class="img-fluid" src="/assets/images/home-page-2.png" />
               </div>
               <div class="col-md-8 text-md-end font-dark-color ">
                   <div class="serv-cont-holder">
@@ -214,7 +214,7 @@
                     </div>                    
                 </div>
                 <div class="col-md-5 ">
-                    <img class="img-fluid mt-4" src="/assets/images/choose-us-img-png.png" />
+                    <img class="img-fluid mt-4" src="/assets/images/home-page-3.png" />
                 </div>
             </div>
         </div>

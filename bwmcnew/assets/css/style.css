@@ -1151,11 +1151,16 @@ h1 {
   font-weight: 500;
     color:#fff;
 }
+.privacy-sec p a{
+    text-decoration:none;
+    color:#031739;
+    font-weight:400;
+  
+}
 
 
-
-    @media (min-width: 992px) {
-        .line-diff {
+@media (min-width: 992px) {
+    .line-diff {
             height: 100%;
             width: 2px;
             background-color: #ababab;

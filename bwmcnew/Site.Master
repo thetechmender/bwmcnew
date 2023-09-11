@@ -85,11 +85,11 @@
                     </div>
                     <div class="col-md-2">
                         <h6>Quick Links</h6>
-                        <ul class="foo-menu">
-                        <%-- <li><a href="/news">Blog Details</a></li>  --%>                          
+                        <ul class="foo-menu">                     
                                 <li><a href="/about">About Us</a></li>
-<%--                            <li><a href="#">Contact Us</a></li>--%>
                             <li><a href="/contact">Contact</a></li>
+                             <li><a href="/privacy-policy">Privacy Policy</a></li>
+                             <li><a href="/terms-and-conditions">Terms and Conditions</a></li>
                         </ul>
                     </div>
                     <div class="col-md-2">

@@ -123,6 +123,12 @@
     <Content Include="assets\images\about-image.jpg" />
     <Content Include="assets\images\about-img2.png" />
     <Content Include="assets\images\about-img3.jpg" />
+    <Content Include="assets\images\accounting-and-bookkeeping-1.png" />
+    <Content Include="assets\images\accounting-and-bookkeeping-2.png" />
+    <Content Include="assets\images\accounting-and-bookkeeping-3.png" />
+    <Content Include="assets\images\audit-and-assurance-1.png" />
+    <Content Include="assets\images\audit-and-assurance-2.png" />
+    <Content Include="assets\images\audit-and-assurance-3.png" />
     <Content Include="assets\images\awards-icons.png" />
     <Content Include="assets\images\bg-counter.jpg" />
     <Content Include="assets\images\blog-post-img-1.jpg" />
@@ -147,9 +153,18 @@
     <Content Include="assets\images\cta-phone-icon.png" />
     <Content Include="assets\images\favicon.png" />
     <Content Include="assets\images\footer-logo.png" />
+    <Content Include="assets\images\home-page-1.jpg" />
+    <Content Include="assets\images\home-page-2.png" />
+    <Content Include="assets\images\home-page-3.png" />
+    <Content Include="assets\images\internal-audit-1.png" />
+    <Content Include="assets\images\internal-audit-2.png" />
+    <Content Include="assets\images\internal-audit-3.png" />
     <Content Include="assets\images\light-shape.png" />
     <Content Include="assets\images\logo.png" />
     <Content Include="assets\images\main-banner-image.jpg" />
+    <Content Include="assets\images\management-accounting-1.png" />
+    <Content Include="assets\images\management-accounting-2.png" />
+    <Content Include="assets\images\management-accounting-3.png" />
     <Content Include="assets\images\management-img1.png" />
     <Content Include="assets\images\management-img2.png" />
     <Content Include="assets\images\news-img1.jpg" />
@@ -281,6 +296,7 @@
     <Content Include="includes\testimonials-slider.aspx" />
     <Content Include="includes\WebForm1.aspx" />
     <Content Include="lp.aspx" />
+    <Content Include="privacy-policy.aspx" />
     <Content Include="Properties\PublishProfiles\FolderProfile.pubxml.user" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -312,6 +328,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Services.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="terms-and-conditions.aspx" />
     <Content Include="thank.aspx" />
     <Content Include="thanks.aspx" />
     <Content Include="ViewSwitcher.ascx" />
@@ -423,6 +440,13 @@
     <Compile Include="news.aspx.designer.cs">
       <DependentUpon>news.aspx</DependentUpon>
     </Compile>
+    <Compile Include="privacy-policy.aspx.cs">
+      <DependentUpon>privacy-policy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privacy-policy.aspx.designer.cs">
+      <DependentUpon>privacy-policy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services.aspx.cs">
       <DependentUpon>Services.aspx</DependentUpon>
@@ -444,6 +468,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="terms-and-conditions.aspx.cs">
+      <DependentUpon>terms-and-conditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="terms-and-conditions.aspx.designer.cs">
+      <DependentUpon>terms-and-conditions.aspx</DependentUpon>
     </Compile>
     <Compile Include="thank.aspx.cs">
       <DependentUpon>thank.aspx</DependentUpon>

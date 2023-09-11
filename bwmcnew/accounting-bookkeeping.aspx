@@ -25,7 +25,7 @@
         <div class="container">
             <div class="row align-content-center">
                 <div class="col-lg-6 col-md-6 mb-4">
-                     <img class="img-fluid" src="/assets/images/management-img1.png" />
+                     <img class="img-fluid" src="/assets/images/accounting-and-bookkeeping-1.png" />
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <h3 class="main-heding mb-4">Keeping the path of accounts clear for every firm</h3>
@@ -45,7 +45,7 @@
         <div class="container">
             <div class="row align-items-center mb-5">
                 <div class="col-lg-5 col-md-5">
-                    <img class="img-fluid mb-4" src="/assets/images/management-img2.png" />
+                    <img class="img-fluid mb-4" src="/assets/images/accounting-and-bookkeeping-2.png" />
                 </div>
                 <div class="col-lg-7 col-md-7 text-end">
                     <h3 class="main-heding">Accounting and Bookkeeping Services</h3>
@@ -196,7 +196,7 @@
                     </div>                    
                 </div>
                 <div class="col-md-5">
-                    <img class="img-fluid" src="/assets/images/choose-us-img-png.png" />
+                    <img class="img-fluid" src="/assets/images/accounting-and-bookkeeping-3.png" />
                 </div>
             </div>
         </div>
