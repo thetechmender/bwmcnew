@@ -97,7 +97,8 @@
                         <ul class="foo-menu mt-0 mt-md-2">
                          <li><a href="/internal-audit">Internal Audit</a></li>
                          <li><a href="/accounting-bookkeeping">Accounting & Bookkeeping</a></li>
-                         <li><a href="/audit-assurance">Audit & Assurance</a></li>      
+                         <li><a href="/audit-assurance">Audit & Assurance</a></li>   
+                         <li><a href="/management-accounting">Management Accounting</a></li>
                           
                         </ul>
                     </div>

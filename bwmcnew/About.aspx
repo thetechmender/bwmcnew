@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="about2.aspx.cs" Inherits="Demo.about2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="Demo.about2" %>
 <asp:Content ID="Content2" ContentPlaceHolderID="HeaderContent" runat="server">
     <title>About Us <%=ConfigurationManager.AppSettings["brandName"] %></title>
     <meta name="keywords" content="">
@@ -43,7 +43,7 @@
 
 
 
-     <section class="about-section space-p-tb section-bg">
+    <%-- <section class="about-section space-p-tb section-bg">
         <div class="container">
             <div class="row sp-postion align-items-center">
                 <div class="col-lg-11 mb-2">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-   </section>
+   </section>--%>
 
 
      <section class="cta-section space-p-tb" style="background-image:url(/assets/images/cta-bg.jpg);"> 
@@ -98,9 +98,9 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-10 col-lg-9 col-xl-8">
                     <h3 class="cta-title">Mission</h3>
-                    <span class="cta-mini-title">To be the best</span>
-                   <p>Nowadays, businesses are growing rapidly, and so are the financial responsibilities. We understand that to achieve financial stability, every company needs help. So here we are, offering our exclusive services to assist you and your company.</p> 
-                </div>
+                   <%-- <span class="cta-mini-title">To be the best</span>--%>
+                    <p>"To be the trusted partner for financial excellence in the United Arab Emirates. We are committed to delivering exceptional financial and accounting services that empower our clients to thrive in a rapidly evolving business landscape."</p>
+                    </div>
                  </div>
             </div>
     </section>
@@ -192,7 +192,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-7 col-xl-8">
-                    <h3 class="cta-title">What are you waiting for?</h3>
+                    <h3 class="cta-title">Reach out to us</h3>
                 <p>Join us and experience how our skills can align your business goals and financials at the core. Secure a place on our list of happy clients and understand why we are one of the leading accounting firms in the Middle East.</p>
                 </div>
                 <div class="col-md-6 col-lg-5 col-xl-4">                    
