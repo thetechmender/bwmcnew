@@ -1324,10 +1324,79 @@ h1 {
         .contact-form-sec {
             min-height: auto;
         }
+        /*.dp-mobile .dropdown > .dropdown-menu {
+            display:block;
+        }*/
+        /*.dp-mobile .dropdown:hover > ul {
+            opacity: 1;
+            top: 100%;
+            visibility: visible;
+            transition: 2040s;
+            display: block;
+        }*/
+       /* .dp-mobile .dropdown ul {
+            position: static;
+            display: none;
+            margin: 10px 20px;
+            padding: 10px 0;
+            z-index: 99;
+            opacity: 1;
+            visibility: visible;
+            background: #fff;
+            box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+        }*/
+
+       /*.dp-mobile .dropdown ul li {
+             min-width: 200px;
+       }*/
+
+     /*  .dp-mobile .dropdown ul a {
+            padding: 10px 20px;
+       }
+
+        .dp-mobile .dropdown ul a i {
+            font-size: 12px;
+        }
+
+        .dp-mobile .dropdown ul a:hover,
+        .dp-mobile .dropdown ul .active:hover,
+        .dp-mobile .dropdown ul li:hover > a {
+            color: var(--primary-color);
+        }*/
+
+      /*  .navbar-mobile .dropdown > .dropdown-active {
+            display: block;
+        }*/
+        /*.dp-mobile ul {
+            display: block;
+            position: absolute;
+            top: 55px;
+            right: 15px;
+            bottom: 15px;
+            left: 15px;
+            padding: 10px 0;
+            background-color: #fff;
+            overflow-y: auto;
+            transition: 0.3s;
+        }
+
+        .dp-mobile a,
+        .dp-mobile a:focus {
+            padding: 10px 20px;
+            font-size: 15px;
+            color: #0b2341;
+        }
+
+       .dp-mobile a:hover,
+       .dp-mobile .active,
+       .dp-mobile li:hover > a {
+         color: var(--primary-color);
+       }*/
+       
     }
     /* `lg` applies to medium devices (tablets, less than 992px) */
     @media (max-width: 991.98px) {
-      
+        
         #main-nav {
             align-items: normal;
             background: #031739;
@@ -1407,7 +1476,9 @@ h1 {
         }
 
         .inner-banner {
-            height: 340px;
+            /*height: 340px;*/
+            height: auto;
+            padding-bottom: 40px;
         }
 
         .inner-banner-content {
@@ -1416,6 +1487,9 @@ h1 {
         .who-sec {
             padding-bottom: 0;
             margin-bottom: 0;
+        }
+        .srv-image-box {
+            margin: 20px 0px 0px 20px;
         }
     }
     /* `md` applies to small devices (landscape phones, less than 768px) */

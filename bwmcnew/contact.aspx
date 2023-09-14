@@ -10,7 +10,7 @@
       <div class="container ">
         <div class="inner-banner-content text-center">
             <div class="row justify-content-center">
-                <div class="col-lg-10 col-md-10">
+                <div class="col-lg-12 col-md-12">
                 <h2 class="inner-title">Get in touch now</h2>
                 </div>
                

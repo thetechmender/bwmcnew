@@ -41,10 +41,10 @@
 
      <section class="about-section space-p-tb section-bg">
         <div class="container">
-            <div class="row sp-postion align-items-center">
-                <div class="col-lg-11 mb-2">
+            <div class="row sp-postion align-items-center ">
+                <div class="col-lg-10 mb-2">
                    <%-- <h3 class="main-heding">Our Company Insights</h3></div>--%>
-                <div class="col-lg-1 mt-4">
+                <div class="col-lg-2 mt-4 mb-5 mb-md-3">
                        <div class="slick-nav-btm">
                     <button type="button" id="slk-left"><i class="fas fa-chevron-left"></i></button>
                      <button type="button" id="slk-right"><i class="fas fa-chevron-right"></i></button>

@@ -271,19 +271,34 @@ $('li.dropdown').on('click', function () {
     }
 });
 
-//jQuery(function ($) {
-//    if ($(window).width() > 991) {
-//        $('.navbar .dropdown').hover(function () {
-//            $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+$(function ($) {
+    if ($(window).width() > 991) {
+        $('.navbar .dropdown').hover(function () {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
 
-//        }, function () {
-//            $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+        }, function () {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
 
-//        });
+        });
 
-//        $('.navbar .dropdown > a').click(function () {
-//            location.href = this.href;
-//        });
+        $('.navbar .dropdown > a').click(function () {
+            location.href = this.href;
+        });
 
-//    }
-//});
+    }
+});
+
+
+/**
+   * Mobile nav dropdowns activate
+   */
+on('click', '.navbar .dropdown-menu > a', function (e) {
+    if (select('#navbarMain').classList.contains('dp-mobile')) {
+        e.preventDefault()
+        this.nextElementSibling.classList.toggle('dropdown-active')
+    }
+}, true)
+
+/**
+* Mobile nav dropdowns activate
+*/
